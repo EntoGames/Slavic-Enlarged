@@ -1,0 +1,11 @@
+﻿l_english:
+ wsl_debug_ok: "OK"
+ wsl_debug.0006.t: "DEBUG: Force Divergence"
+ wsl_debug.0006.desc: "Choose which Slavic branch to diverge to."
+ wsl_debug.0006.a: "Eastern Rodnovery"
+ wsl_debug.0006.b: "Western Rodnovery"
+ wsl_debug.0006.c: "Southern Rodnovery"
+ wsl_debug.0006.d: "Cancel"
+ wsl_main.0001.t: "The All-Slavic Faith"
+ wsl_main.0001.desc: "The three branches of the Slavic faith have been united under a single banner. The old divisions — Eastern thunder, Western prophecy, and Southern clan-fire — are no more. A new era begins."
+ wsl_main.0001.a: "By the will of Perun!"

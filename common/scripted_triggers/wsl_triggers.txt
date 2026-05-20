@@ -1,0 +1,31 @@
+wsl_controls_shared_holy_sites_trigger = {
+	# Placeholder — docelowo sprawdzenie kontroli holy sites
+	always = yes
+}
+
+wsl_controls_regional_holy_sites_trigger = {
+	# Placeholder — docelowo sprawdzenie 2 sites z każdego odłamu
+	always = yes
+}
+
+wsl_pagan_slavs_threshold_trigger = {
+	# Placeholder — docelowo sprawdzenie czy 50%+ Słowian nadal pogańskich
+	always = yes
+}
+
+wsl_is_slavic_culture_trigger = {
+	OR = {
+		culture = { has_cultural_pillar = heritage_west_slavic }
+		culture = { has_cultural_pillar = heritage_east_slavic }
+		culture = { has_cultural_pillar = heritage_south_slavic }
+	}
+}
+
+wsl_is_slavic_pagan_faith_trigger = {
+	OR = {
+		faith = faith:wsl_slavic_base
+		faith = faith:wsl_slavic_east
+		faith = faith:wsl_slavic_west
+		faith = faith:wsl_slavic_south
+	}
+}
