@@ -1,0 +1,73 @@
+wsl_assign_starting_faiths_effect = {
+
+	# --- RODNOWIERSTWO WSCHODNIE ---
+	every_county_in_region = {
+		region = world_europe_east
+
+		limit = {
+			holder = {
+				culture = { has_cultural_pillar = heritage_east_slavic }
+			}
+			faith = { religion = religion:slavic_religion }
+		}
+		set_county_faith = faith:wsl_slavic_east
+	}
+
+	# --- RODNOWIERSTWO ZACHODNIE ---
+	# Połabie i Pomorze — wyraźna zachodnia tożsamość w 867
+	every_county_in_region = {
+		region = world_europe_west_germania
+
+		limit = {
+			holder = {
+				culture = { has_cultural_pillar = heritage_west_slavic }
+			}
+			faith = { religion = religion:slavic_religion }
+		}
+		set_county_faith = faith:wsl_slavic_west
+	}
+
+	# Zachodni Słowianie w Europie Wschodniej (Polska, Czechy, reszta)
+	every_county_in_region = {
+		region = world_europe_east
+
+		limit = {
+			holder = {
+				culture = { has_cultural_pillar = heritage_west_slavic }
+			}
+			faith = { religion = religion:slavic_religion }
+		}
+		set_county_faith = faith:wsl_slavic_west
+	}
+
+	# --- RODNOWIERSTWO POŁUDNIOWE ---
+	every_county_in_region = {
+		region = world_europe_south_east
+
+		limit = {
+			holder = {
+				culture = { has_cultural_pillar = heritage_south_slavic }
+			}
+			faith = { religion = religion:slavic_religion }
+		}
+		set_county_faith = faith:wsl_slavic_south
+	}
+
+	# --- BAZOWA WIARA ---
+	# Wszystkie pozostałe słowiańskie pogańskie county → wsl_slavic_base
+	every_county = {
+		limit = {
+			faith = { religion = religion:slavic_religion }
+		}
+		set_county_faith = faith:wsl_slavic_base
+	}
+
+	# --- POSTACIE ---
+	# Konwertuj władców na nową wiarę na podstawie ich county
+	every_ruler = {
+		limit = {
+			faith = { religion = religion:slavic_religion }
+		}
+		set_character_faith = capital_county.title_province.faith
+	}
+}

@@ -1,0 +1,70 @@
+wsl_reform_panslavic_faith = {
+	picture = "gfx/interface/illustrations/decisions/decision_piety.dds"
+
+	desc = wsl_reform_panslavic_faith_desc
+	selection_tooltip = wsl_reform_panslavic_faith_tooltip
+
+	is_shown = {
+		is_ai = no
+
+		OR = {
+			faith = faith:wsl_slavic_east
+			faith = faith:wsl_slavic_west
+			faith = faith:wsl_slavic_south
+		}
+
+		NOT = {
+			any_ruler = {
+				faith = faith:wsl_slavic_unified
+			}
+		}
+	}
+
+	is_valid = {
+		highest_held_title_tier >= tier_kingdom
+		piety >= 2000
+		prestige >= 1500
+
+		custom_tooltip = {
+			text = wsl_reform_tooltip_shared_sites
+			wsl_controls_shared_holy_sites_trigger = yes
+		}
+
+		custom_tooltip = {
+			text = wsl_reform_tooltip_regional_sites
+			wsl_controls_regional_holy_sites_trigger = yes
+		}
+
+		custom_tooltip = {
+			text = wsl_reform_tooltip_pagan_threshold
+			wsl_pagan_slavs_threshold_trigger = yes
+		}
+	}
+
+	effect = {
+		set_character_faith = faith:wsl_slavic_unified
+		add_piety = -2000
+
+		every_vassal = {
+			limit = {
+				wsl_is_slavic_pagan_faith_trigger = yes
+			}
+			set_character_faith = faith:wsl_slavic_unified
+		}
+
+		dynasty = {
+			add_dynasty_modifier = {
+				modifier = wsl_modifier_unifier_of_faiths
+				years = 60
+			}
+		}
+
+		trigger_event = {
+			id = wsl_main.0001
+		}
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}
