@@ -45,6 +45,9 @@ wsl_slavic = {
 		slavic_custom_2
 		slavic_custom_3
 		slavic_custom_4
+		wsl_slavic_east
+		wsl_slavic_west
+		wsl_slavic_south
 	}
 
 	holy_order_names = {
@@ -126,7 +129,7 @@ wsl_slavic = {
 
 		wsl_slavic_east = {
 			color = { 0.70 0.25 0.20 }
-			icon = slavic
+			icon = wsl_slavic_east
 			reformed_icon = slavic_reformed
 
 			holy_site = wsl_site_lviv
@@ -144,7 +147,7 @@ wsl_slavic = {
 
 		wsl_slavic_west = {
 			color = { 0.25 0.45 0.75 }
-			icon = slavic
+			icon = wsl_slavic_west
 			reformed_icon = slavic_reformed
 
 			holy_site = wsl_site_arkona
@@ -162,7 +165,7 @@ wsl_slavic = {
 
 		wsl_slavic_south = {
 			color = { 0.80 0.55 0.15 }
-			icon = slavic
+			icon = wsl_slavic_south
 			reformed_icon = slavic_reformed
 
 			holy_site = wsl_site_velbazhd
