@@ -1,13 +1,14 @@
-### Krivichians — Smolensk region
-234 = {
+### Krivichians — Smolensk region (d_smolensk)
+### IDs verified against vanilla k_white_rus.txt
+568 = {
 	culture = krivichians
 }
-266 = {
+5221 = {
 	culture = krivichians
 }
-283 = {
+933 = {
 	culture = krivichians
 }
-322 = {
+5170 = {
 	culture = krivichians
 }

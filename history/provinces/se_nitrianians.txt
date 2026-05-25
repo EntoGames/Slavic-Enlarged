@@ -1,4 +1,5 @@
-### Nitrianians — Nitra principality
-292 = {
+### Nitrianians — Nitra principality (d_nyitra)
+### ID verified against vanilla k_hungary.txt
+3831 = {
 	culture = nitrianians
 }
