@@ -1,0 +1,7 @@
+### Timocani — Timok valley
+506 = {
+	culture = timocani
+}
+3668 = {
+	culture = timocani
+}

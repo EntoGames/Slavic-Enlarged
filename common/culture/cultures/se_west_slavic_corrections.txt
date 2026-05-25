@@ -1,0 +1,57 @@
+########################################
+# SLAVIC ENLARGED — West Slavic Corrections
+# K1: vistulan language → language_lechitic
+# K2: silesian language → language_lechitic
+########################################
+
+vistulan = {
+	color = { 0.8 0.4 0.2 }
+
+	ethos = ethos_stoic
+	heritage = heritage_west_slavic
+	language = language_lechitic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_agrarian
+		tradition_castle_keepers
+		tradition_stand_and_fight
+		tradition_sacred_groves
+	}
+
+	name_list = name_list_polish
+
+	coa_gfx = { west_slavic_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	ethnicities = {
+		10 = slavic
+	}
+}
+
+silesian = {
+	color = { 0.6 0.5 0.3 }
+
+	ethos = ethos_communal
+	heritage = heritage_west_slavic
+	language = language_lechitic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_agrarian
+		tradition_castle_keepers
+		tradition_mining
+		tradition_forest_folk
+	}
+
+	name_list = name_list_polish
+
+	coa_gfx = { west_slavic_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	ethnicities = {
+		10 = slavic
+	}
+}

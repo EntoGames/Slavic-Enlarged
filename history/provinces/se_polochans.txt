@@ -1,0 +1,10 @@
+### Polochans — Polotsk region (d_polotsk)
+5129 = {
+	culture = polochans
+}
+934 = {
+	culture = polochans
+}
+5134 = {
+	culture = polochans
+}

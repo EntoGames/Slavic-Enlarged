@@ -1,0 +1,13 @@
+### Vyatichi — upper Oka region
+501 = {
+	culture = vyatichi
+}
+526 = {
+	culture = vyatichi
+}
+551 = {
+	culture = vyatichi
+}
+580 = {
+	culture = vyatichi
+}

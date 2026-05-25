@@ -1,0 +1,4 @@
+### Wagrians — Wagria / eastern Holstein
+2804 = {
+	culture = wagrians
+}

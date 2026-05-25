@@ -1,0 +1,16 @@
+### Drevlyans — Pripyat forest region
+5104 = {
+	culture = drevlyans
+}
+5109 = {
+	culture = drevlyans
+}
+5087 = {
+	culture = drevlyans
+}
+5091 = {
+	culture = drevlyans
+}
+5095 = {
+	culture = drevlyans
+}

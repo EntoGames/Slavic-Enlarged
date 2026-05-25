@@ -1,0 +1,7 @@
+### Pannonian Slavs — Balaton / Zalavar region
+3835 = {
+	culture = pannonian_slavs
+}
+3827 = {
+	culture = pannonian_slavs
+}

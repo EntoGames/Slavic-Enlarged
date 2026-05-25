@@ -1,0 +1,7 @@
+### Silesian — override polish → silesian in 867
+3052 = {
+	culture = silesian
+}
+3045 = {
+	culture = silesian
+}
