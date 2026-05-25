@@ -1,0 +1,380 @@
+########################################
+# SLAVIC ENLARGED — New Cultures
+# Sprint 1 (Phase 1) + Sprint 2 (Phase 2)
+########################################
+
+###############################
+# EAST SLAVIC
+###############################
+
+krivichians = {
+	color = { 0.45 0.55 0.35 }
+
+	ethos = ethos_communal
+	heritage = heritage_east_slavic
+	language = language_east_slavic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_forest_folk
+		tradition_agrarian
+		tradition_druzhina
+		tradition_city_keepers
+	}
+
+	name_list = name_list_russian
+
+	coa_gfx = { east_slavic_group_coa_gfx }
+	building_gfx = { russian_building_gfx }
+	clothing_gfx = { russian_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	ethnicities = {
+		10 = slavic
+	}
+}
+
+vyatichi = {
+	color = { 0.50 0.40 0.30 }
+
+	ethos = ethos_communal
+	heritage = heritage_east_slavic
+	language = language_east_slavic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_forest_folk
+		tradition_sacred_groves
+		tradition_druzhina
+		tradition_martial_admiration
+	}
+
+	name_list = name_list_russian
+
+	coa_gfx = { east_slavic_group_coa_gfx }
+	building_gfx = { russian_building_gfx }
+	clothing_gfx = { russian_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	ethnicities = {
+		10 = slavic
+	}
+}
+
+drevlyans = {
+	color = { 0.35 0.50 0.25 }
+
+	ethos = ethos_stoic
+	heritage = heritage_east_slavic
+	language = language_east_slavic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_forest_folk
+		tradition_hunters
+		tradition_druzhina
+		tradition_defensive_warfare
+	}
+
+	name_list = name_list_russian
+
+	coa_gfx = { east_slavic_group_coa_gfx }
+	building_gfx = { russian_building_gfx }
+	clothing_gfx = { russian_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	ethnicities = {
+		10 = slavic
+	}
+}
+
+polochans = {
+	color = { 0.40 0.50 0.60 }
+
+	ethos = ethos_courtly
+	heritage = heritage_east_slavic
+	language = language_east_slavic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_forest_folk
+		tradition_city_keepers
+		tradition_druzhina
+		tradition_agrarian
+	}
+
+	name_list = name_list_russian
+
+	coa_gfx = { east_slavic_group_coa_gfx }
+	building_gfx = { russian_building_gfx }
+	clothing_gfx = { russian_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	ethnicities = {
+		10 = slavic
+	}
+}
+
+###############################
+# SOUTH SLAVIC
+###############################
+
+travunians = {
+	color = { 0.55 0.35 0.40 }
+
+	ethos = ethos_stoic
+	heritage = heritage_south_slavic
+	language = language_south_slavic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_defensive_warfare
+		tradition_hunters
+		tradition_pastoralists
+		tradition_maritime_mercantilism
+	}
+
+	name_list = name_list_serbian
+
+	coa_gfx = { south_slavic_group_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	ethnicities = {
+		10 = mediterranean
+	}
+}
+
+docleani = {
+	color = { 0.50 0.40 0.50 }
+
+	ethos = ethos_stoic
+	heritage = heritage_south_slavic
+	language = language_south_slavic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_maritime_mercantilism
+		tradition_defensive_warfare
+		tradition_hunters
+		tradition_castle_keepers
+	}
+
+	name_list = name_list_serbian
+
+	coa_gfx = { south_slavic_group_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	ethnicities = {
+		10 = mediterranean
+	}
+}
+
+timocani = {
+	color = { 0.60 0.45 0.30 }
+
+	ethos = ethos_stoic
+	heritage = heritage_south_slavic
+	language = language_south_slavic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_defensive_warfare
+		tradition_pastoralists
+		tradition_hunters
+		tradition_druzhina
+	}
+
+	name_list = name_list_serbian
+
+	coa_gfx = { south_slavic_group_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	ethnicities = {
+		10 = mediterranean
+	}
+}
+
+branicevci = {
+	color = { 0.55 0.40 0.35 }
+
+	ethos = ethos_stoic
+	heritage = heritage_south_slavic
+	language = language_south_slavic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_defensive_warfare
+		tradition_druzhina
+		tradition_agrarian
+		tradition_martial_admiration
+	}
+
+	name_list = name_list_serbian
+
+	coa_gfx = { south_slavic_group_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	ethnicities = {
+		10 = mediterranean
+	}
+}
+
+smolyani = {
+	color = { 0.45 0.50 0.40 }
+
+	ethos = ethos_stoic
+	heritage = heritage_south_slavic
+	language = language_south_slavic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_mountain_homes
+		tradition_defensive_warfare
+		tradition_forest_folk
+		tradition_hunters
+	}
+
+	name_list = name_list_bulgarian
+
+	coa_gfx = { south_slavic_group_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	ethnicities = {
+		10 = mediterranean
+	}
+}
+
+pannonian_slavs = {
+	color = { 0.50 0.55 0.45 }
+
+	ethos = ethos_bureaucratic
+	heritage = heritage_south_slavic
+	language = language_south_slavic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_astute_diplomats
+		tradition_city_keepers
+		tradition_parochialism
+		tradition_defensive_warfare
+	}
+
+	name_list = name_list_slovien
+
+	coa_gfx = { south_slavic_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	ethnicities = {
+		10 = slavic
+	}
+}
+
+###############################
+# WEST SLAVIC
+###############################
+
+goplans = {
+	color = { 0.55 0.50 0.30 }
+
+	ethos = ethos_communal
+	heritage = heritage_west_slavic
+	language = language_lechitic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_agrarian
+		tradition_forest_folk
+		tradition_stand_and_fight
+		tradition_defensive_warfare
+	}
+
+	name_list = name_list_polish
+
+	coa_gfx = { west_slavic_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	ethnicities = {
+		10 = slavic
+	}
+}
+
+hevelli = {
+	color = { 0.40 0.45 0.55 }
+
+	ethos = ethos_courtly
+	heritage = heritage_west_slavic
+	language = language_lechitic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_city_keepers
+		tradition_agrarian
+		tradition_xenophilic
+		tradition_defensive_warfare
+	}
+
+	name_list = name_list_polabian
+
+	coa_gfx = { west_slavic_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	ethnicities = {
+		10 = slavic
+	}
+}
+
+wagrians = {
+	color = { 0.35 0.45 0.50 }
+
+	ethos = ethos_stoic
+	heritage = heritage_west_slavic
+	language = language_lechitic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_maritime_mercantilism
+		tradition_hunters
+		tradition_defensive_warfare
+		tradition_forest_folk
+	}
+
+	name_list = name_list_polabian
+
+	coa_gfx = { west_slavic_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	ethnicities = {
+		10 = slavic
+	}
+}
+
+nitrianians = {
+	color = { 0.50 0.45 0.50 }
+
+	ethos = ethos_bureaucratic
+	heritage = heritage_west_slavic
+	language = language_czech_slovak
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_parochialism
+		tradition_city_keepers
+		tradition_agrarian
+		tradition_astute_diplomats
+	}
+
+	name_list = name_list_slovien
+
+	coa_gfx = { west_slavic_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	ethnicities = {
+		10 = slavic
+	}
+}

@@ -1,0 +1,60 @@
+l_polish:
+
+ # Wschodniosłowiańskie — Nowe kultury
+ krivichians: "Krywicze"
+ krivichians_collective_noun: "Krywicze"
+ krivichians_prefix: "krywicki"
+
+ vyatichi: "Wiatycze"
+ vyatichi_collective_noun: "Wiatycze"
+ vyatichi_prefix: "wiatycki"
+
+ drevlyans: "Drewlanie"
+ drevlyans_collective_noun: "Drewlanie"
+ drevlyans_prefix: "drewlański"
+
+ polochans: "Połoczanie"
+ polochans_collective_noun: "Połoczanie"
+ polochans_prefix: "połocki"
+
+ # Południowosłowiańskie — Nowe kultury
+ travunians: "Travunianie"
+ travunians_collective_noun: "Travunianie"
+ travunians_prefix: "travuński"
+
+ docleani: "Dukljanie"
+ docleani_collective_noun: "Dukljanie"
+ docleani_prefix: "duklański"
+
+ timocani: "Timocanie"
+ timocani_collective_noun: "Timocanie"
+ timocani_prefix: "timocański"
+
+ branicevci: "Braniczewcy"
+ branicevci_collective_noun: "Braniczewcy"
+ branicevci_prefix: "braniczewski"
+
+ smolyani: "Smolanie"
+ smolyani_collective_noun: "Smolanie"
+ smolyani_prefix: "smolański"
+
+ pannonian_slavs: "Słowianie Pannońscy"
+ pannonian_slavs_collective_noun: "Słowianie Pannońscy"
+ pannonian_slavs_prefix: "pannoński"
+
+ # Zachodniosłowiańskie — Nowe kultury
+ goplans: "Goplanie"
+ goplans_collective_noun: "Goplanie"
+ goplans_prefix: "goplański"
+
+ hevelli: "Hawelanie"
+ hevelli_collective_noun: "Hawelanie"
+ hevelli_prefix: "hawelski"
+
+ wagrians: "Wagriowie"
+ wagrians_collective_noun: "Wagriowie"
+ wagrians_prefix: "wagryjski"
+
+ nitrianians: "Nitrianie"
+ nitrianians_collective_noun: "Nitrianie"
+ nitrianians_prefix: "nitriański"

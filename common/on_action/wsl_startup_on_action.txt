@@ -1,5 +1,6 @@
 on_game_start_after_lobby = {
 	effect = {
 		wsl_assign_starting_faiths_effect = yes
+		wsl_assign_starting_cultures_effect = yes
 	}
 }

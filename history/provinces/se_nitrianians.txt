@@ -1,0 +1,4 @@
+### Nitrianians — Nitra principality
+292 = {
+	culture = nitrianians
+}

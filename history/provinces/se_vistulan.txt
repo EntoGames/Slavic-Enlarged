@@ -1,0 +1,22 @@
+### Vistulan — Lesser Poland (override polish → vistulan in 867)
+527 = {
+	culture = vistulan
+}
+532 = {
+	culture = vistulan
+}
+531 = {
+	culture = vistulan
+}
+4951 = {
+	culture = vistulan
+}
+4953 = {
+	culture = vistulan
+}
+4957 = {
+	culture = vistulan
+}
+4965 = {
+	culture = vistulan
+}

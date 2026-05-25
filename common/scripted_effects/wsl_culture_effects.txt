@@ -1,0 +1,198 @@
+wsl_assign_starting_cultures_effect = {
+
+	### EAST SLAVIC ###
+
+	# Krivichians — Smolensk region
+	every_county = {
+		limit = {
+			OR = {
+				this = title:c_smolensk
+				this = title:c_gnezdovo
+				this = title:c_roslavl
+				this = title:c_toropets
+			}
+		}
+		set_county_culture = culture:krivichians
+	}
+
+	# Vyatichi — upper Oka
+	every_county = {
+		limit = {
+			OR = {
+				this = title:c_karachev
+				this = title:c_kozelsk
+				this = title:c_sevsk
+				this = title:c_ryazan
+			}
+		}
+		set_county_culture = culture:vyatichi
+	}
+
+	# Drevlyans — Pripyat forest
+	every_county = {
+		limit = {
+			OR = {
+				this = title:c_korosten
+				this = title:c_dubrovytsia
+				this = title:c_zhytomyr
+				this = title:c_zvyahel
+				this = title:c_chornobyl
+			}
+		}
+		set_county_culture = culture:drevlyans
+	}
+
+	### SOUTH SLAVIC ###
+
+	# Travunians — Trebinje
+	every_county = {
+		limit = {
+			this = title:c_travunia
+		}
+		set_county_culture = culture:travunians
+	}
+
+	# Docleani — Duklja / Montenegro
+	every_county = {
+		limit = {
+			OR = {
+				this = title:c_duklja
+				this = title:c_pomorje
+			}
+		}
+		set_county_culture = culture:docleani
+	}
+
+	# Pannonian Slavs — Balaton / Zalavar
+	every_county = {
+		limit = {
+			OR = {
+				this = title:c_somogy
+				this = title:c_kolon
+			}
+		}
+		set_county_culture = culture:pannonian_slavs
+	}
+
+	# Timocani — Timok valley
+	every_county = {
+		limit = {
+			this = title:c_vidin
+		}
+		set_county_culture = culture:timocani
+	}
+
+	# Branicevci — Branicevo
+	every_county = {
+		limit = {
+			this = title:c_branicevo
+		}
+		set_county_culture = culture:branicevci
+	}
+
+	# Smolyani — Rhodopes
+	every_county = {
+		limit = {
+			OR = {
+				this = title:c_zherkovo
+				this = title:c_rhodopes
+			}
+		}
+		set_county_culture = culture:smolyani
+	}
+
+	### WEST SLAVIC ###
+
+	# Goplans — Lake Goplo (dying culture)
+	every_county = {
+		limit = {
+			OR = {
+				this = title:c_kujawy
+				this = title:c_dobrzynska
+			}
+		}
+		set_county_culture = culture:goplans
+	}
+
+	# Hevelli — Havel river
+	every_county = {
+		limit = {
+			OR = {
+				this = title:c_brandeburg
+				this = title:c_havelberg
+				this = title:c_ruppin
+				this = title:c_berlin
+			}
+		}
+		set_county_culture = culture:hevelli
+	}
+
+	# Wagrians — Wagria / Holstein
+	every_county = {
+		limit = {
+			this = title:c_lubeck
+		}
+		set_county_culture = culture:wagrians
+	}
+
+	# Nitrianians — Nitra
+	every_county = {
+		limit = {
+			this = title:c_nyitra
+		}
+		set_county_culture = culture:nitrianians
+	}
+
+	### CORRECTIONS — Province reassignments ###
+
+	# K1: Vistulan provinces (polish → vistulan)
+	every_county = {
+		limit = {
+			OR = {
+				this = title:c_krakowska
+				this = title:c_sacz
+				this = title:c_sandomierska
+				this = title:c_stezycka
+				this = title:c_radomska
+				this = title:c_lubelska
+				this = title:c_tarnowska
+			}
+		}
+		set_county_culture = culture:vistulan
+	}
+
+	# K2: Silesian provinces (polish → silesian)
+	every_county = {
+		limit = {
+			OR = {
+				this = title:c_opole
+				this = title:c_breslau
+			}
+		}
+		set_county_culture = culture:silesian
+	}
+
+	### CHARACTER CULTURE SYNC ###
+	# Update ruler cultures to match their capital county
+	every_ruler = {
+		limit = {
+			OR = {
+				capital_county = { culture = culture:krivichians }
+				capital_county = { culture = culture:vyatichi }
+				capital_county = { culture = culture:drevlyans }
+				capital_county = { culture = culture:travunians }
+				capital_county = { culture = culture:docleani }
+				capital_county = { culture = culture:pannonian_slavs }
+				capital_county = { culture = culture:goplans }
+				capital_county = { culture = culture:polochans }
+				capital_county = { culture = culture:hevelli }
+				capital_county = { culture = culture:wagrians }
+				capital_county = { culture = culture:timocani }
+				capital_county = { culture = culture:branicevci }
+				capital_county = { culture = culture:smolyani }
+				capital_county = { culture = culture:nitrianians }
+			}
+		}
+		set_culture = capital_county.culture
+	}
+}

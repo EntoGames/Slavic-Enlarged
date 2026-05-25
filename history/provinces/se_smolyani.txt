@@ -1,0 +1,10 @@
+### Smolyani — Rhodope Mountains
+3618 = {
+	culture = smolyani
+}
+3620 = {
+	culture = smolyani
+}
+3617 = {
+	culture = smolyani
+}

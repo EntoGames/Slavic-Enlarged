@@ -1,0 +1,13 @@
+### Krivichians — Smolensk region
+234 = {
+	culture = krivichians
+}
+266 = {
+	culture = krivichians
+}
+283 = {
+	culture = krivichians
+}
+322 = {
+	culture = krivichians
+}
