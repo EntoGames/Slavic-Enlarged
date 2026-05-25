@@ -1,11 +1,12 @@
-### Vyatichi — upper Oka region
-501 = {
+### Vyatichi — upper Oka region (d_chernigov / d_ryazan)
+### IDs verified against vanilla k_ruthenia.txt / k_opolye.txt
+5209 = {
 	culture = vyatichi
 }
-526 = {
+5212 = {
 	culture = vyatichi
 }
-551 = {
+5206 = {
 	culture = vyatichi
 }
 580 = {

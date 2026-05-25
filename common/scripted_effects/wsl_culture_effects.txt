@@ -42,6 +42,18 @@ wsl_assign_starting_cultures_effect = {
 		set_county_culture = culture:drevlyans
 	}
 
+	# Polochans — Polotsk principality (d_polotsk)
+	every_county = {
+		limit = {
+			OR = {
+				this = title:c_polotsk
+				this = title:c_lukoml
+				this = title:c_vitebsk
+			}
+		}
+		set_county_culture = culture:polochans
+	}
+
 	### SOUTH SLAVIC ###
 
 	# Travunians — Trebinje
@@ -118,7 +130,7 @@ wsl_assign_starting_cultures_effect = {
 	every_county = {
 		limit = {
 			OR = {
-				this = title:c_brandeburg
+				this = title:c_brandenburg
 				this = title:c_havelberg
 				this = title:c_ruppin
 				this = title:c_berlin
@@ -191,6 +203,10 @@ wsl_assign_starting_cultures_effect = {
 				capital_county = { culture = culture:branicevci }
 				capital_county = { culture = culture:smolyani }
 				capital_county = { culture = culture:nitrianians }
+				capital_county = { culture = culture:vistulan }
+				capital_county = { culture = culture:silesian }
+				capital_county = { culture = culture:tivertsi }
+				capital_county = { culture = culture:draguvites }
 			}
 		}
 		set_culture = capital_county.culture
