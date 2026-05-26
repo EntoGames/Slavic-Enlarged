@@ -1,0 +1,8 @@
+### Polyans — Kiev / Pereyaslavl region (d_kiev / d_pereyaslavl)
+### IDs verified against vanilla k_ruthenia.txt
+547 = {
+	culture = polyans
+}
+555 = {
+	culture = polyans
+}

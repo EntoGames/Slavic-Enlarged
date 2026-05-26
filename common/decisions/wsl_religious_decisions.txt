@@ -1,8 +1,13 @@
-wsl_reform_panslavic_faith = {
-	picture = "gfx/interface/illustrations/decisions/decision_piety.dds"
+﻿wsl_reform_panslavic_faith = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_piety.dds"
+	}
 
 	desc = wsl_reform_panslavic_faith_desc
 	selection_tooltip = wsl_reform_panslavic_faith_tooltip
+
+	cooldown = { years = 5 }
+	ai_check_interval = 120
 
 	is_shown = {
 		is_ai = no

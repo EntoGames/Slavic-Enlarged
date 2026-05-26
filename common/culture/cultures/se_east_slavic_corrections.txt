@@ -15,7 +15,7 @@ tivertsi = {
 		tradition_forest_folk
 		tradition_agrarian
 		tradition_druzhina
-		tradition_defensive_warfare
+		#tradition_defensive_warfare # NOT IN VANILLA
 	}
 
 	name_list = name_list_russian

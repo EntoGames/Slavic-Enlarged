@@ -1,0 +1,8 @@
+### Draguvites — Macedonia / Strymon (d_thessalonika / d_strymon)
+### IDs verified against vanilla k_thessalonika.txt
+3784 = {
+	culture = draguvites
+}
+3771 = {
+	culture = draguvites
+}

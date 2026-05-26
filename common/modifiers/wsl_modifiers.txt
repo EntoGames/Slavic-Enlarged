@@ -1,4 +1,4 @@
-wsl_modifier_unifier_of_faiths = {
+﻿wsl_modifier_unifier_of_faiths = {
 	icon = modifier_piety_icon
 
 	monthly_piety_gain_mult = 0.2

@@ -1,7 +1,43 @@
-### Silesian — override polish → silesian in 867
+### Silesian — Ślężanie, upper/middle Oder (d_upper_silesia / d_lower_silesia)
+### IDs verified against vanilla k_poland.txt
+### d_upper_silesia
 3052 = {
 	culture = silesian
 }
+3049 = {
+	culture = silesian
+}
+3048 = {
+	culture = silesian
+}
+3040 = {
+	culture = silesian
+}
+3042 = {
+	culture = silesian
+}
+3044 = {
+	culture = silesian
+}
+### d_lower_silesia
 3045 = {
+	culture = silesian
+}
+3061 = {
+	culture = silesian
+}
+3058 = {
+	culture = silesian
+}
+3067 = {
+	culture = silesian
+}
+3068 = {
+	culture = silesian
+}
+3145 = {
+	culture = silesian
+}
+3064 = {
 	culture = silesian
 }

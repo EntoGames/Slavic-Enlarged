@@ -18,7 +18,7 @@ draguvites = {
 	traditions = {
 		tradition_agrarian
 		tradition_forest_folk
-		tradition_defensive_warfare
+		#tradition_defensive_warfare # NOT IN VANILLA
 		tradition_druzhina
 	}
 

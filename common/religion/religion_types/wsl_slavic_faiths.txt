@@ -1,4 +1,4 @@
-wsl_slavic = {
+﻿wsl_slavic = {
 	family = rf_pagan
 	graphical_faith = pagan_gfx
 	piety_icon_group = pagan

@@ -1,5 +1,5 @@
 ﻿l_polish:
- wsl_debug_ok: "OK"
+ wsl_debug_ok:0 "OK"
  wsl_debug.0006.t: "DEBUG: Wymuś Divergencję"
  wsl_debug.0006.desc: "Wybierz odłam słowiański, na który chcesz przejść."
  wsl_debug.0006.a: "Rodnowierstwo Wschodnie"

@@ -1,5 +1,5 @@
 ﻿l_english:
- wsl_debug_ok: "OK"
+ wsl_debug_ok:0 "OK"
  wsl_debug.0006.t: "DEBUG: Force Divergence"
  wsl_debug.0006.desc: "Choose which Slavic branch to diverge to."
  wsl_debug.0006.a: "Eastern Rodnovery"

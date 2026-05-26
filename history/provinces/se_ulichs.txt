@@ -1,0 +1,8 @@
+### Ulichs — lower Dnieper / Southern Bug (d_kiev)
+### IDs verified against vanilla k_ruthenia.txt
+5098 = {
+	culture = ulichs
+}
+544 = {
+	culture = ulichs
+}

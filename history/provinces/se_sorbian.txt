@@ -1,0 +1,57 @@
+### Sorbian (Lusatian Sorbs) — Meissen / Lausitz / Thuringian border
+### IDs verified against vanilla k_east_francia.txt and k_pomerania.txt
+### d_anhalt
+3023 = {
+	culture = sorbian
+}
+### d_meissen
+3027 = {
+	culture = sorbian
+}
+3030 = {
+	culture = sorbian
+}
+3012 = {
+	culture = sorbian
+}
+3021 = {
+	culture = sorbian
+}
+3020 = {
+	culture = sorbian
+}
+3039 = {
+	culture = sorbian
+}
+### d_lausitz
+3181 = {
+	culture = sorbian
+}
+2980 = {
+	culture = sorbian
+}
+3180 = {
+	culture = sorbian
+}
+3173 = {
+	culture = sorbian
+}
+3025 = {
+	culture = sorbian
+}
+3140 = {
+	culture = sorbian
+}
+3143 = {
+	culture = sorbian
+}
+### Thuringian border (Saale region)
+2935 = {
+	culture = sorbian
+}
+3005 = {
+	culture = sorbian
+}
+3003 = {
+	culture = sorbian
+}

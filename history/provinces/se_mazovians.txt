@@ -1,0 +1,17 @@
+### Mazovians — Mazovia region (d_mazovia)
+### IDs verified against vanilla k_poland.txt
+529 = {
+	culture = mazovians
+}
+530 = {
+	culture = mazovians
+}
+4940 = {
+	culture = mazovians
+}
+4943 = {
+	culture = mazovians
+}
+4946 = {
+	culture = mazovians
+}

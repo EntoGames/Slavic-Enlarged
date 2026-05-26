@@ -1,60 +1,122 @@
-l_polish:
+﻿l_polish:
 
  # Wschodniosłowiańskie — Nowe kultury
- krivichians: "Krywicze"
- krivichians_collective_noun: "Krywicze"
- krivichians_prefix: "krywicki"
+ krivichians:0 "Krywicka"
+ krivichians_collective_noun:0 "Krywicze"
+ krivichians_prefix:0 "krywicki"
 
- vyatichi: "Wiatycze"
- vyatichi_collective_noun: "Wiatycze"
- vyatichi_prefix: "wiatycki"
+ vyatichi:0 "Wiatycka"
+ vyatichi_collective_noun:0 "Wiatycze"
+ vyatichi_prefix:0 "wiatycki"
 
- drevlyans: "Drewlanie"
- drevlyans_collective_noun: "Drewlanie"
- drevlyans_prefix: "drewlański"
+ drevlyans:0 "Drewlańska"
+ drevlyans_collective_noun:0 "Drewlanie"
+ drevlyans_prefix:0 "drewlański"
 
- polochans: "Połoczanie"
- polochans_collective_noun: "Połoczanie"
- polochans_prefix: "połocki"
+ polochans:0 "Połocka"
+ polochans_collective_noun:0 "Połoczanie"
+ polochans_prefix:0 "połocki"
+
+ dregovichs:0 "Dregowicka"
+ dregovichs_collective_noun:0 "Dregowicze"
+ dregovichs_prefix:0 "dregowicki"
+
+ polyans:0 "Kijowsko-polańska"
+ polyans_collective_noun:0 "Polanie kijowscy"
+ polyans_prefix:0 "polański"
+
+ ulichs:0 "Ulicka"
+ ulichs_collective_noun:0 "Ulicze"
+ ulichs_prefix:0 "ulicki"
+
+ radimichs:0 "Radymicka"
+ radimichs_collective_noun:0 "Radymicze"
+ radimichs_prefix:0 "radymicki"
+
+ tivertsi:0 "Tywercka"
+ tivertsi_collective_noun:0 "Tywercy"
+ tivertsi_prefix:0 "tywercki"
 
  # Południowosłowiańskie — Nowe kultury
- travunians: "Travunianie"
- travunians_collective_noun: "Travunianie"
- travunians_prefix: "travuński"
+ travunians:0 "Travuńska"
+ travunians_collective_noun:0 "Travunianie"
+ travunians_prefix:0 "travuński"
 
- docleani: "Dukljanie"
- docleani_collective_noun: "Dukljanie"
- docleani_prefix: "duklański"
+ docleani:0 "Duklańska"
+ docleani_collective_noun:0 "Dukljanie"
+ docleani_prefix:0 "duklański"
 
- timocani: "Timocanie"
- timocani_collective_noun: "Timocanie"
- timocani_prefix: "timocański"
+ timocani:0 "Timocańska"
+ timocani_collective_noun:0 "Timocanie"
+ timocani_prefix:0 "timocański"
 
- branicevci: "Braniczewcy"
- branicevci_collective_noun: "Braniczewcy"
- branicevci_prefix: "braniczewski"
+ branicevci:0 "Braniczewska"
+ branicevci_collective_noun:0 "Braniczewcy"
+ branicevci_prefix:0 "braniczewski"
 
- smolyani: "Smolanie"
- smolyani_collective_noun: "Smolanie"
- smolyani_prefix: "smolański"
+ smolyani:0 "Smolańska"
+ smolyani_collective_noun:0 "Smolanie"
+ smolyani_prefix:0 "smolański"
 
- pannonian_slavs: "Słowianie Pannońscy"
- pannonian_slavs_collective_noun: "Słowianie Pannońscy"
- pannonian_slavs_prefix: "pannoński"
+ pannonian_slavs:0 "Pannońsko-słowiańska"
+ pannonian_slavs_collective_noun:0 "Słowianie Pannońscy"
+ pannonian_slavs_prefix:0 "pannoński"
 
  # Zachodniosłowiańskie — Nowe kultury
- goplans: "Goplanie"
- goplans_collective_noun: "Goplanie"
- goplans_prefix: "goplański"
+ lechitic_polans:0 "Lechicko-polańska"
+ lechitic_polans_collective_noun:0 "Polanie lechiccy"
+ lechitic_polans_prefix:0 "polański"
 
- hevelli: "Hawelanie"
- hevelli_collective_noun: "Hawelanie"
- hevelli_prefix: "hawelski"
+ goplans:0 "Goplańska"
+ goplans_collective_noun:0 "Goplanie"
+ goplans_prefix:0 "goplański"
 
- wagrians: "Wagriowie"
- wagrians_collective_noun: "Wagriowie"
- wagrians_prefix: "wagryjski"
+ hevelli:0 "Hawelska"
+ hevelli_collective_noun:0 "Hawelanie"
+ hevelli_prefix:0 "hawelski"
 
- nitrianians: "Nitrianie"
- nitrianians_collective_noun: "Nitrianie"
- nitrianians_prefix: "nitriański"
+ wagrians:0 "Wagryjska"
+ wagrians_collective_noun:0 "Wagriowie"
+ wagrians_prefix:0 "wagryjski"
+
+ kashubians:0 "Kaszubska"
+ kashubians_collective_noun:0 "Kaszubi"
+ kashubians_prefix:0 "kaszubski"
+
+ mazovians:0 "Mazowszańska"
+ mazovians_collective_noun:0 "Mazowszanie"
+ mazovians_prefix:0 "mazowszański"
+
+ nitrianians:0 "Nitriańska"
+ nitrianians_collective_noun:0 "Nitrianie"
+ nitrianians_prefix:0 "nitriański"
+
+ # Zachodniosłowiańskie — Korekty (nowe kultury, brak w wanilii)
+ vistulan:0 "Wiślańska"
+ vistulan_collective_noun:0 "Wiślanie"
+ vistulan_prefix:0 "wiślański"
+
+ silesian:0 "Ślężańska"
+ silesian_collective_noun:0 "Ślężanie"
+ silesian_prefix:0 "ślężański"
+
+ # Plemiona Połabskie
+ obodrites:0 "Obodrzycka"
+ obodrites_collective_noun:0 "Obodrzyci"
+ obodrites_prefix:0 "obodrzycki"
+
+ lutici:0 "Lucicka"
+ lutici_collective_noun:0 "Lucice"
+ lutici_prefix:0 "lucicki"
+
+ rani:0 "Rańska"
+ rani_collective_noun:0 "Raniowie"
+ rani_prefix:0 "rański"
+
+ sorbian:0 "Serbołużycka"
+ sorbian_collective_noun:0 "Serbowie Łużyccy"
+ sorbian_prefix:0 "serbołużycki"
+
+ drevani:0 "Drzewańska"
+ drevani_collective_noun:0 "Drzewanie"
+ drevani_prefix:0 "drzewański"

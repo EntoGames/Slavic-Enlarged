@@ -1,0 +1,36 @@
+### Volhynian — Galicia-Volhynia region (d_volhynia / d_halych / d_cherven_cities)
+### Vanilla culture exists but is not assigned to any provinces
+### IDs verified against vanilla k_galicia-volhynia.txt
+535 = {
+	culture = volhynian
+}
+5051 = {
+	culture = volhynian
+}
+549 = {
+	culture = volhynian
+}
+5057 = {
+	culture = volhynian
+}
+536 = {
+	culture = volhynian
+}
+5063 = {
+	culture = volhynian
+}
+546 = {
+	culture = volhynian
+}
+5070 = {
+	culture = volhynian
+}
+5073 = {
+	culture = volhynian
+}
+5077 = {
+	culture = volhynian
+}
+534 = {
+	culture = volhynian
+}

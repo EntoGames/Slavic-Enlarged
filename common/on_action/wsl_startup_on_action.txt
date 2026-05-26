@@ -1,4 +1,14 @@
-on_game_start_after_lobby = {
+﻿# Chain into vanilla on_game_start without overriding its effect block.
+# Vanilla on_game_start has its own 'effect' that we MUST NOT overwrite.
+# Instead, we register a custom on_action that gets called from on_game_start.
+
+on_game_start = {
+	on_actions = {
+		wsl_on_game_start
+	}
+}
+
+wsl_on_game_start = {
 	effect = {
 		wsl_assign_starting_faiths_effect = yes
 		wsl_assign_starting_cultures_effect = yes
