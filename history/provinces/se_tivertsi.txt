@@ -1,0 +1,26 @@
+### Tivertsi — Dniester basin (d_bukovina / d_moldova / d_bugeac)
+### IDs verified against vanilla k_moldavia.txt
+### d_bukovina
+5040 = {
+	culture = tivertsi
+}
+545 = {
+	culture = tivertsi
+}
+5038 = {
+	culture = tivertsi
+}
+### d_moldova
+541 = {
+	culture = tivertsi
+}
+5019 = {
+	culture = tivertsi
+}
+5021 = {
+	culture = tivertsi
+}
+### d_bugeac
+5017 = {
+	culture = tivertsi
+}

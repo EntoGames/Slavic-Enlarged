@@ -1,0 +1,27 @@
+### Severian — Chernigov / Desna region (d_chernigov / d_pereyaslavl)
+### Vanilla culture exists but is not assigned to any provinces
+### IDs verified against vanilla k_ruthenia.txt
+554 = {
+	culture = severian
+}
+567 = {
+	culture = severian
+}
+5203 = {
+	culture = severian
+}
+5193 = {
+	culture = severian
+}
+5196 = {
+	culture = severian
+}
+5185 = {
+	culture = severian
+}
+5181 = {
+	culture = severian
+}
+5189 = {
+	culture = severian
+}

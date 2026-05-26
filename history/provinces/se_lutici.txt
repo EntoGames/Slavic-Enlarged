@@ -1,0 +1,8 @@
+### Lutici — Wolgast / Prenzlau
+### IDs verified against vanilla k_pomerania.txt
+2817 = {
+	culture = lutici
+}
+3160 = {
+	culture = lutici
+}

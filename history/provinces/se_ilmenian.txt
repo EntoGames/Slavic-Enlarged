@@ -1,0 +1,15 @@
+### Ilmenian — Novgorod / Lake Ilmen region (d_novgorod / d_luki)
+### Vanilla culture exists but is not assigned to any provinces
+### IDs verified against vanilla k_novgorod.txt
+5137 = {
+	culture = ilmenian
+}
+5143 = {
+	culture = ilmenian
+}
+5150 = {
+	culture = ilmenian
+}
+5161 = {
+	culture = ilmenian
+}

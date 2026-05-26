@@ -1,0 +1,11 @@
+### Obodrites — Mecklenburg / d_nordmark
+### IDs verified against vanilla k_pomerania.txt
+2807 = {
+	culture = obodrites
+}
+2809 = {
+	culture = obodrites
+}
+2812 = {
+	culture = obodrites
+}

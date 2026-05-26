@@ -1,0 +1,14 @@
+### Kashubians — Gdańsk Pomerania (d_pomerelia)
+### IDs verified against vanilla k_pomerania.txt
+2830 = {
+	culture = kashubians
+}
+2827 = {
+	culture = kashubians
+}
+3190 = {
+	culture = kashubians
+}
+3196 = {
+	culture = kashubians
+}

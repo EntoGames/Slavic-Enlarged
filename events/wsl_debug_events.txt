@@ -1,4 +1,4 @@
-namespace = wsl_debug
+﻿namespace = wsl_debug
 
 
 wsl_debug.0001 = {
@@ -6,9 +6,9 @@ wsl_debug.0001 = {
 	hidden = yes
 
 	immediate = {
-		log = "============================================================"
-		log = "=== WSL FAITH DIST: START (date=[GetYear].[GetMonth]) ==="
-		log = "============================================================"
+		debug_log = "============================================================"
+		debug_log = "=== WSL FAITH DIST: START (date=[GetYear].[GetMonth]) ==="
+		debug_log = "============================================================"
 
 		set_variable = { name = wsl_dbg_base    value = 0 }
 		set_variable = { name = wsl_dbg_east    value = 0 }
@@ -37,14 +37,14 @@ wsl_debug.0001 = {
 			root = { change_variable = { name = wsl_dbg_unified add = 1 } }
 		}
 
-		log = "  wsl_slavic_base    : [root.MakeScope.Var('wsl_dbg_base').GetValue|0] counties"
-		log = "  wsl_slavic_east    : [root.MakeScope.Var('wsl_dbg_east').GetValue|0] counties"
-		log = "  wsl_slavic_west    : [root.MakeScope.Var('wsl_dbg_west').GetValue|0] counties"
-		log = "  wsl_slavic_south   : [root.MakeScope.Var('wsl_dbg_south').GetValue|0] counties"
-		log = "  wsl_slavic_unified : [root.MakeScope.Var('wsl_dbg_unified').GetValue|0] counties"
-		log = "============================================================"
-		log = "=== WSL FAITH DIST: END ==="
-		log = "============================================================"
+		debug_log = "  wsl_slavic_base    : [root.MakeScope.Var('wsl_dbg_base').GetValue|0] counties"
+		debug_log = "  wsl_slavic_east    : [root.MakeScope.Var('wsl_dbg_east').GetValue|0] counties"
+		debug_log = "  wsl_slavic_west    : [root.MakeScope.Var('wsl_dbg_west').GetValue|0] counties"
+		debug_log = "  wsl_slavic_south   : [root.MakeScope.Var('wsl_dbg_south').GetValue|0] counties"
+		debug_log = "  wsl_slavic_unified : [root.MakeScope.Var('wsl_dbg_unified').GetValue|0] counties"
+		debug_log = "============================================================"
+		debug_log = "=== WSL FAITH DIST: END ==="
+		debug_log = "============================================================"
 
 		remove_variable = wsl_dbg_base
 		remove_variable = wsl_dbg_east
@@ -62,33 +62,33 @@ wsl_debug.0002 = {
 	hidden = yes
 
 	immediate = {
-		log = "=== WSL COUNTY LIST: START ==="
+		debug_log = "=== WSL COUNTY LIST: START ==="
 
-		log = "--- wsl_slavic_base ---"
+		debug_log = "--- wsl_slavic_base ---"
 		every_county = {
 			limit = { faith = faith:wsl_slavic_base }
-			log = "  BASE: [THIS.GetName] | holder: [holder.GetName] | culture: [holder.GetCulture.GetName]"
+			debug_log = "  BASE: [THIS.GetName] | holder: [holder.GetName] | culture: [holder.GetCulture.GetName]"
 		}
 
-		log = "--- wsl_slavic_east ---"
+		debug_log = "--- wsl_slavic_east ---"
 		every_county = {
 			limit = { faith = faith:wsl_slavic_east }
-			log = "  EAST: [THIS.GetName] | holder: [holder.GetName] | culture: [holder.GetCulture.GetName]"
+			debug_log = "  EAST: [THIS.GetName] | holder: [holder.GetName] | culture: [holder.GetCulture.GetName]"
 		}
 
-		log = "--- wsl_slavic_west ---"
+		debug_log = "--- wsl_slavic_west ---"
 		every_county = {
 			limit = { faith = faith:wsl_slavic_west }
-			log = "  WEST: [THIS.GetName] | holder: [holder.GetName] | culture: [holder.GetCulture.GetName]"
+			debug_log = "  WEST: [THIS.GetName] | holder: [holder.GetName] | culture: [holder.GetCulture.GetName]"
 		}
 
-		log = "--- wsl_slavic_south ---"
+		debug_log = "--- wsl_slavic_south ---"
 		every_county = {
 			limit = { faith = faith:wsl_slavic_south }
-			log = "  SOUTH: [THIS.GetName] | holder: [holder.GetName] | culture: [holder.GetCulture.GetName]"
+			debug_log = "  SOUTH: [THIS.GetName] | holder: [holder.GetName] | culture: [holder.GetCulture.GetName]"
 		}
 
-		log = "=== WSL COUNTY LIST: END ==="
+		debug_log = "=== WSL COUNTY LIST: END ==="
 	}
 
 	option = { name = wsl_debug_ok }
@@ -100,60 +100,60 @@ wsl_debug.0003 = {
 	hidden = yes
 
 	immediate = {
-		log = "=== WSL HOLY SITES: STATUS START ==="
+		debug_log = "=== WSL HOLY SITES: STATUS START ==="
 
-		log = "-- WSCHODNIE --"
+		debug_log = "-- WSCHODNIE --"
 		title:c_lviv = {
-			log = "  LVIV     (c_lviv)        : [holder.GetName] | faith: [holder.GetFaith.GetName]"
+			debug_log = "  LVIV     (c_lviv)        : [holder.GetName] | faith: [holder.GetFaith.GetName]"
 		}
 		title:c_kiev = {
-			log = "  KYIV     (c_kiev)        : [holder.GetName] | faith: [holder.GetFaith.GetName]"
+			debug_log = "  KYIV     (c_kiev)        : [holder.GetName] | faith: [holder.GetFaith.GetName]"
 		}
 		title:c_minsk = {
-			log = "  MINSK    (c_minsk)       : [holder.GetName] | faith: [holder.GetFaith.GetName]"
+			debug_log = "  MINSK    (c_minsk)       : [holder.GetName] | faith: [holder.GetFaith.GetName]"
 		}
 		title:c_novgorod = {
-			log = "  NOVGOROD (c_novgorod)     : [holder.GetName] | faith: [holder.GetFaith.GetName]"
+			debug_log = "  NOVGOROD (c_novgorod)     : [holder.GetName] | faith: [holder.GetFaith.GetName]"
 		}
 		title:c_polotsk = {
-			log = "  POLOTSK  (c_polotsk)     : [holder.GetName] | faith: [holder.GetFaith.GetName]"
+			debug_log = "  POLOTSK  (c_polotsk)     : [holder.GetName] | faith: [holder.GetFaith.GetName]"
 		}
 
-		log = "-- ZACHODNIE --"
+		debug_log = "-- ZACHODNIE --"
 		title:c_rugen = {
-			log = "  ARKONA   (c_rugen)       : [holder.GetName] | faith: [holder.GetFaith.GetName]"
+			debug_log = "  ARKONA   (c_rugen)       : [holder.GetName] | faith: [holder.GetFaith.GetName]"
 		}
 		title:c_plocka = {
-			log = "  PLOCK    (c_plocka)      : [holder.GetName] | faith: [holder.GetFaith.GetName]"
+			debug_log = "  PLOCK    (c_plocka)      : [holder.GetName] | faith: [holder.GetFaith.GetName]"
 		}
 		title:c_praha = {
-			log = "  PRAGUE   (c_praha)       : [holder.GetName] | faith: [holder.GetFaith.GetName]"
+			debug_log = "  PRAGUE   (c_praha)       : [holder.GetName] | faith: [holder.GetFaith.GetName]"
 		}
 		title:c_legnica = {
-			log = "  LEGNICA  (c_legnica)     : [holder.GetName] | faith: [holder.GetFaith.GetName]"
+			debug_log = "  LEGNICA  (c_legnica)     : [holder.GetName] | faith: [holder.GetFaith.GetName]"
 		}
 		title:c_mecklenburg = {
-			log = "  RETRA    (c_mecklenburg) : [holder.GetName] | faith: [holder.GetFaith.GetName]"
+			debug_log = "  RETRA    (c_mecklenburg) : [holder.GetName] | faith: [holder.GetFaith.GetName]"
 		}
 
-		log = "-- POLUDNIOWE --"
+		debug_log = "-- POLUDNIOWE --"
 		title:c_velbazhd = {
-			log = "  VELBAZHD (c_velbazhd)    : [holder.GetName] | faith: [holder.GetFaith.GetName]"
+			debug_log = "  VELBAZHD (c_velbazhd)    : [holder.GetName] | faith: [holder.GetFaith.GetName]"
 		}
 		title:c_tolna = {
-			log = "  TOLNA    (c_tolna)       : [holder.GetName] | faith: [holder.GetFaith.GetName]"
+			debug_log = "  TOLNA    (c_tolna)       : [holder.GetName] | faith: [holder.GetFaith.GetName]"
 		}
 		title:c_zachlumia = {
-			log = "  STON     (c_zachlumia)   : [holder.GetName] | faith: [holder.GetFaith.GetName]"
+			debug_log = "  STON     (c_zachlumia)   : [holder.GetName] | faith: [holder.GetFaith.GetName]"
 		}
 		title:c_barlad = {
-			log = "  BARLAD   (c_barlad)      : [holder.GetName] | faith: [holder.GetFaith.GetName]"
+			debug_log = "  BARLAD   (c_barlad)      : [holder.GetName] | faith: [holder.GetFaith.GetName]"
 		}
 		title:c_szerem = {
-			log = "  SIRMIUM  (c_szerem)      : [holder.GetName] | faith: [holder.GetFaith.GetName]"
+			debug_log = "  SIRMIUM  (c_szerem)      : [holder.GetName] | faith: [holder.GetFaith.GetName]"
 		}
 
-		log = "=== WSL HOLY SITES: STATUS END ==="
+		debug_log = "=== WSL HOLY SITES: STATUS END ==="
 	}
 
 	option = { name = wsl_debug_ok }
@@ -165,14 +165,14 @@ wsl_debug.0004 = {
 	hidden = yes
 
 	immediate = {
-		log = "=== WSL REFORM CHECK: [ROOT.GetName] ([GetYear].[GetMonth]) ==="
+		debug_log = "=== WSL REFORM CHECK: [ROOT.GetName] ([GetYear].[GetMonth]) ==="
 
 		if = {
 			limit = { highest_held_title_tier >= tier_kingdom }
-			log = "  [PASS] Tier: >= Kingdom"
+			debug_log = "  [PASS] Tier: >= Kingdom"
 		}
 		else = {
-			log = "  [FAIL] Tier: need Kingdom+"
+			debug_log = "  [FAIL] Tier: need Kingdom+"
 		}
 
 		if = {
@@ -183,30 +183,30 @@ wsl_debug.0004 = {
 					faith = faith:wsl_slavic_south
 				}
 			}
-			log = "  [PASS] Faith: [ROOT.GetFaith.GetName]"
+			debug_log = "  [PASS] Faith: [ROOT.GetFaith.GetName]"
 		}
 		else = {
-			log = "  [FAIL] Faith: [ROOT.GetFaith.GetName] — need East/West/South"
+			debug_log = "  [FAIL] Faith: [ROOT.GetFaith.GetName] — need East/West/South"
 		}
 
 		if = {
 			limit = { piety >= 2000 }
-			log = "  [PASS] Piety >= 2000"
+			debug_log = "  [PASS] Piety >= 2000"
 		}
 		else = {
-			log = "  [FAIL] Piety < 2000"
+			debug_log = "  [FAIL] Piety < 2000"
 		}
 
 		if = {
 			limit = { prestige >= 1500 }
-			log = "  [PASS] Prestige >= 1500"
+			debug_log = "  [PASS] Prestige >= 1500"
 		}
 		else = {
-			log = "  [FAIL] Prestige < 1500"
+			debug_log = "  [FAIL] Prestige < 1500"
 		}
 
-		log = "  [TODO] Holy sites check: placeholder triggers"
-		log = "=== WSL REFORM CHECK: END ==="
+		debug_log = "  [TODO] Holy sites check: placeholder triggers"
+		debug_log = "=== WSL REFORM CHECK: END ==="
 	}
 
 	option = { name = wsl_debug_ok }
@@ -218,27 +218,27 @@ wsl_debug.0005 = {
 	hidden = yes
 
 	immediate = {
-		log = "=== WSL PIETY BALANCE: START ==="
-		log = "Player: [ROOT.GetName] | faith: [ROOT.GetFaith.GetName]"
+		debug_log = "=== WSL PIETY BALANCE: START ==="
+		debug_log = "Player: [ROOT.GetName] | faith: [ROOT.GetFaith.GetName]"
 
 		random_ruler = {
 			limit = { faith = faith:wsl_slavic_base }
-			log = "  BASE sample: [THIS.GetName] | faith=[THIS.GetFaith.GetName]"
+			debug_log = "  BASE sample: [THIS.GetName] | faith=[THIS.GetFaith.GetName]"
 		}
 		random_ruler = {
 			limit = { faith = faith:wsl_slavic_east }
-			log = "  EAST sample: [THIS.GetName] | faith=[THIS.GetFaith.GetName]"
+			debug_log = "  EAST sample: [THIS.GetName] | faith=[THIS.GetFaith.GetName]"
 		}
 		random_ruler = {
 			limit = { faith = faith:wsl_slavic_west }
-			log = "  WEST sample: [THIS.GetName] | faith=[THIS.GetFaith.GetName]"
+			debug_log = "  WEST sample: [THIS.GetName] | faith=[THIS.GetFaith.GetName]"
 		}
 		random_ruler = {
 			limit = { faith = faith:wsl_slavic_south }
-			log = "  SOUTH sample: [THIS.GetName] | faith=[THIS.GetFaith.GetName]"
+			debug_log = "  SOUTH sample: [THIS.GetName] | faith=[THIS.GetFaith.GetName]"
 		}
 
-		log = "=== WSL PIETY BALANCE: END ==="
+		debug_log = "=== WSL PIETY BALANCE: END ==="
 	}
 
 	option = { name = wsl_debug_ok }
@@ -249,27 +249,28 @@ wsl_debug.0006 = {
 	type = character_event
 	title = wsl_debug.0006.t
 	desc = wsl_debug.0006.desc
+	theme = faith
 
 	is_triggered_only = yes
 
 	option = {
 		name = wsl_debug.0006.a
 		set_character_faith = faith:wsl_slavic_east
-		log = "WSL DEBUG: [ROOT.GetName] diverged to wsl_slavic_east"
+		debug_log = "WSL DEBUG: [ROOT.GetName] diverged to wsl_slavic_east"
 	}
 	option = {
 		name = wsl_debug.0006.b
 		set_character_faith = faith:wsl_slavic_west
-		log = "WSL DEBUG: [ROOT.GetName] diverged to wsl_slavic_west"
+		debug_log = "WSL DEBUG: [ROOT.GetName] diverged to wsl_slavic_west"
 	}
 	option = {
 		name = wsl_debug.0006.c
 		set_character_faith = faith:wsl_slavic_south
-		log = "WSL DEBUG: [ROOT.GetName] diverged to wsl_slavic_south"
+		debug_log = "WSL DEBUG: [ROOT.GetName] diverged to wsl_slavic_south"
 	}
 	option = {
 		name = wsl_debug.0006.d
-		log = "WSL DEBUG: divergence cancelled"
+		debug_log = "WSL DEBUG: divergence cancelled"
 	}
 }
 
@@ -279,9 +280,9 @@ wsl_debug.0007 = {
 	hidden = yes
 
 	immediate = {
-		log = "============================================================"
-		log = "WSL DEBUG: namespace OK — wsl_debug_events.txt loaded"
-		log = "============================================================"
+		debug_log = "============================================================"
+		debug_log = "WSL DEBUG: namespace OK — wsl_debug_events.txt loaded"
+		debug_log = "============================================================"
 	}
 
 	option = { name = wsl_debug_ok }
@@ -293,9 +294,9 @@ wsl_debug.0008 = {
 	hidden = yes
 
 	immediate = {
-		log = "==================================================================="
-		log = "=== WSL SNAPSHOT: [GetYear].[GetMonth] ==="
-		log = "==================================================================="
+		debug_log = "==================================================================="
+		debug_log = "=== WSL SNAPSHOT: [GetYear].[GetMonth] ==="
+		debug_log = "==================================================================="
 
 		set_variable = { name = wsl_snap_base    value = 0 }
 		set_variable = { name = wsl_snap_east    value = 0 }
@@ -324,20 +325,20 @@ wsl_debug.0008 = {
 			root = { change_variable = { name = wsl_snap_unified add = 1 } }
 		}
 
-		log = "FAITH: base=[root.MakeScope.Var('wsl_snap_base').GetValue|0] east=[root.MakeScope.Var('wsl_snap_east').GetValue|0] west=[root.MakeScope.Var('wsl_snap_west').GetValue|0] south=[root.MakeScope.Var('wsl_snap_south').GetValue|0] unified=[root.MakeScope.Var('wsl_snap_unified').GetValue|0]"
-		log = "PLAYER: [ROOT.GetName] | faith=[ROOT.GetFaith.GetName]"
+		debug_log = "FAITH: base=[root.MakeScope.Var('wsl_snap_base').GetValue|0] east=[root.MakeScope.Var('wsl_snap_east').GetValue|0] west=[root.MakeScope.Var('wsl_snap_west').GetValue|0] south=[root.MakeScope.Var('wsl_snap_south').GetValue|0] unified=[root.MakeScope.Var('wsl_snap_unified').GetValue|0]"
+		debug_log = "PLAYER: [ROOT.GetName] | faith=[ROOT.GetFaith.GetName]"
 
 		if = {
 			limit = {
 				any_ruler = { faith = faith:wsl_slavic_unified }
 			}
-			log = "UNIFIED: EXISTS"
+			debug_log = "UNIFIED: EXISTS"
 		}
 		else = {
-			log = "UNIFIED: not yet"
+			debug_log = "UNIFIED: not yet"
 		}
 
-		log = "==================================================================="
+		debug_log = "==================================================================="
 
 		remove_variable = wsl_snap_base
 		remove_variable = wsl_snap_east

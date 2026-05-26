@@ -1,0 +1,5 @@
+### Rani — Rugen island
+### IDs verified against vanilla k_pomerania.txt
+2811 = {
+	culture = rani
+}

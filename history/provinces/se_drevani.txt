@@ -1,0 +1,11 @@
+### Drevani (Polabians proper) — Wendland / Altmark / Elbe
+### IDs verified against vanilla k_east_francia.txt
+2894 = {
+	culture = drevani
+}
+2900 = {
+	culture = drevani
+}
+2906 = {
+	culture = drevani
+}

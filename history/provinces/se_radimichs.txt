@@ -1,0 +1,5 @@
+### Radimichs — Sozh river basin (d_minsk)
+### IDs verified against vanilla k_white_rus.txt
+5127 = {
+	culture = radimichs
+}

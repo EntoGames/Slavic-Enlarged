@@ -4,7 +4,6 @@
 # K2: silesian language → language_lechitic (new culture, not in vanilla)
 # K4: carantanian — corrected historical comment
 # K6: pommeranian — tradition_hussar → tradition_stand_and_fight
-# K6: polish — tradition_hussar → tradition_cavalry_skirmishing
 ########################################
 
 ### NEW CULTURES (not in vanilla CK3) ###
@@ -53,7 +52,7 @@ silesian = {
 	traditions = {
 		tradition_agrarian
 		tradition_castle_keepers
-		tradition_mining
+		#tradition_mining # NOT IN VANILLA
 		tradition_forest_folk
 	}
 
@@ -101,43 +100,6 @@ pommeranian = {
 	coa_gfx = { west_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { pommeranian_clothing_gfx west_slavic_clothing_gfx western_clothing_gfx }
-	unit_gfx = { eastern_unit_gfx }
-	house_coa_frame = house_frame_21
-	house_coa_mask_offset = { 0.0 0.055 }
-	house_coa_mask_scale = { 1.0 1.0 }
-
-	ethnicities = {
-		45 = slavic_blond
-		5 = slavic_ginger
-		35 = slavic_brown_hair
-		15 = slavic_dark_hair
-	}
-}
-
-# K6: tradition_hussar → tradition_cavalry_skirmishing
-polish = {
-	color = polish
-
-	ethos = ethos_courtly
-	heritage = heritage_west_slavic
-	language = language_lechitic
-	martial_custom = martial_custom_male_only
-	head_determination = head_determination_domain
-	traditions = {
-		tradition_cavalry_skirmishing		# was: tradition_hussar
-		tradition_xenophilic
-	}
-
-	dlc_tradition = {
-		trait = tradition_staunch_traditionalists
-		requires_dlc_flag = hybridize_culture
-	}
-
-	name_list = name_list_polish
-
-	coa_gfx = { polish_coa_gfx west_slavic_group_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { west_slavic_clothing_gfx western_clothing_gfx }
 	unit_gfx = { eastern_unit_gfx }
 	house_coa_frame = house_frame_21
 	house_coa_mask_offset = { 0.0 0.055 }
