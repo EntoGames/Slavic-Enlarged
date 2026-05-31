@@ -18,11 +18,9 @@ draguvites = {
 	traditions = {
 		tradition_agrarian
 		tradition_forest_folk
-		#tradition_defensive_warfare # NOT IN VANILLA
-		tradition_druzhina
 	}
 
-	name_list = name_list_bulgarian
+	name_list = name_list_se_slavic
 
 	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -54,7 +52,7 @@ croatian = {
 		tradition_hereditary_hierarchy
 	}
 
-	name_list = name_list_croatian
+	name_list = name_list_se_slavic
 
 	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -89,7 +87,7 @@ serbian = {
 		requires_dlc_flag = hybridize_culture
 	}
 
-	name_list = name_list_serbian
+	name_list = name_list_se_slavic
 
 	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }

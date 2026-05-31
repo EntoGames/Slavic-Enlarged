@@ -1,0 +1,127 @@
+﻿l_english:
+
+ # East Slavic — New Cultures
+ krivichians:0 "Krivichian"
+ krivichians_collective_noun:0 "Krivichians"
+ krivichians_prefix:0 "Krivichian"
+
+ vyatichi:0 "Vyatichi"
+ vyatichi_collective_noun:0 "Vyatichi"
+ vyatichi_prefix:0 "Vyatichi"
+
+ drevlyans:0 "Drevlyan"
+ drevlyans_collective_noun:0 "Drevlyans"
+ drevlyans_prefix:0 "Drevlyan"
+
+ polochans:0 "Polochan"
+ polochans_collective_noun:0 "Polochans"
+ polochans_prefix:0 "Polochan"
+
+ dregovichs:0 "Dregovian"
+ dregovichs_collective_noun:0 "Dregovichs"
+ dregovichs_prefix:0 "Dregovian"
+
+ polyans:0 "Kievan Polyan"
+ polyans_collective_noun:0 "Kievan Polyans"
+ polyans_prefix:0 "Polyan"
+
+ ulichs:0 "Ulich"
+ ulichs_collective_noun:0 "Ulichs"
+ ulichs_prefix:0 "Ulich"
+
+ radimichs:0 "Radimich"
+ radimichs_collective_noun:0 "Radimichs"
+ radimichs_prefix:0 "Radimich"
+
+ tivertsi:0 "Tivertsian"
+ tivertsi_collective_noun:0 "Tivertsians"
+ tivertsi_prefix:0 "Tivertsian"
+
+ # South Slavic — New Cultures
+ travunians:0 "Travunian"
+ travunians_collective_noun:0 "Travunians"
+ travunians_prefix:0 "Travunian"
+
+ docleani:0 "Dioclean"
+ docleani_collective_noun:0 "Diocleani"
+ docleani_prefix:0 "Dioclean"
+
+ timocani:0 "Timocan"
+ timocani_collective_noun:0 "Timocani"
+ timocani_prefix:0 "Timocan"
+
+ branicevci:0 "Branicevci"
+ branicevci_collective_noun:0 "Branicevci"
+ branicevci_prefix:0 "Branicevci"
+
+ smolyani:0 "Smolyan"
+ smolyani_collective_noun:0 "Smolyani"
+ smolyani_prefix:0 "Smolyan"
+
+ pannonian_slavs:0 "Pannonian Slav"
+ pannonian_slavs_collective_noun:0 "Pannonian Slavs"
+ pannonian_slavs_prefix:0 "Pannonian"
+
+ # West Slavic — New Cultures
+ polans:0 "Polan"
+ polans_collective_noun:0 "Polans"
+ polans_prefix:0 "Polan"
+
+ goplans:0 "Goplan"
+ goplans_collective_noun:0 "Goplans"
+ goplans_prefix:0 "Goplan"
+
+ hevelli:0 "Hevellian"
+ hevelli_collective_noun:0 "Hevelli"
+ hevelli_prefix:0 "Hevellian"
+
+ wagrians:0 "Wagrian"
+ wagrians_collective_noun:0 "Wagrians"
+ wagrians_prefix:0 "Wagrian"
+
+ kashubians:0 "Kashubian"
+ kashubians_collective_noun:0 "Kashubians"
+ kashubians_prefix:0 "Kashubian"
+
+ mazovians:0 "Mazovian"
+ mazovians_collective_noun:0 "Mazovians"
+ mazovians_prefix:0 "Mazovian"
+
+ nitrianians:0 "Nitrianian"
+ nitrianians_collective_noun:0 "Nitrianians"
+ nitrianians_prefix:0 "Nitrianian"
+
+ # West Slavic — Corrections (new cultures not in vanilla)
+ vistulan:0 "Vistulan"
+ vistulan_collective_noun:0 "Vistulans"
+ vistulan_prefix:0 "Vistulan"
+
+ silesian:0 "Silesian"
+ silesian_collective_noun:0 "Silesians"
+ silesian_prefix:0 "Silesian"
+
+ # Polabian Tribes
+ obodrites:0 "Obodrite"
+ obodrites_collective_noun:0 "Obodrites"
+ obodrites_prefix:0 "Obodrite"
+
+ lutici:0 "Lutician"
+ lutici_collective_noun:0 "Lutici"
+ lutici_prefix:0 "Lutician"
+
+ rani:0 "Ranian"
+ rani_collective_noun:0 "Rani"
+ rani_prefix:0 "Ranian"
+
+ sorbian:0 "Sorbian"
+ sorbian_collective_noun:0 "Sorbs"
+ sorbian_prefix:0 "Sorbian"
+
+ drevani:0 "Drevanian"
+ drevani_collective_noun:0 "Drevani"
+ drevani_prefix:0 "Drevanian"
+
+ # Ilmenian (added for SSP compatibility)
+ ilmenian:0 "Ilmenian"
+ ilmenian_collective_noun:0 "Ilmenians"
+ ilmenian_prefix:0 "Ilmenian "

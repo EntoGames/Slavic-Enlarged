@@ -1,0 +1,153 @@
+﻿# ═══════════════════════════════════════════════════════════════
+# WSCHODNIE (se_slavic_east) — 5 miejsc
+# ═══════════════════════════════════════════════════════════════
+
+se_site_lviv = {
+	county = c_lviv
+
+	character_modifier = {
+		name = se_holy_site_lviv_effect
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+se_site_kyiv = {
+	county = c_kiev
+
+	character_modifier = {
+		name = se_holy_site_kyiv_effect
+		monthly_piety_gain_mult = 0.08
+		monthly_prestige_gain_mult = 0.05
+	}
+}
+
+se_site_minsk = {
+	county = c_minsk
+
+	character_modifier = {
+		name = se_holy_site_minsk_effect
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+se_site_novgorod = {
+	county = c_novgorod
+
+	character_modifier = {
+		name = se_holy_site_novgorod_effect
+		monthly_piety_gain_mult = 0.06
+		monthly_prestige_gain_mult = 0.03
+	}
+}
+
+se_site_polotsk = {
+	county = c_polotsk
+
+	character_modifier = {
+		name = se_holy_site_polotsk_effect
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+# ═══════════════════════════════════════════════════════════════
+# ZACHODNIE (se_slavic_west) — 5 miejsc
+# ═══════════════════════════════════════════════════════════════
+
+se_site_arkona = {
+	county = c_rugen
+
+	character_modifier = {
+		name = se_holy_site_arkona_effect
+		monthly_piety_gain_mult = 0.08
+		monthly_prestige_gain_mult = 0.05
+	}
+}
+
+se_site_plocka = {
+	county = c_plocka
+
+	character_modifier = {
+		name = se_holy_site_plocka_effect
+		monthly_piety_gain_mult = 0.05
+		monthly_prestige_gain_mult = 0.03
+	}
+}
+
+se_site_praha = {
+	county = c_praha
+
+	character_modifier = {
+		name = se_holy_site_praha_effect
+		monthly_piety_gain_mult = 0.05
+		monthly_prestige_gain_mult = 0.03
+	}
+}
+
+se_site_legnica = {
+	county = c_legnica
+
+	character_modifier = {
+		name = se_holy_site_legnica_effect
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+se_site_retra = {
+	county = c_mecklenburg
+
+	character_modifier = {
+		name = se_holy_site_retra_effect
+		monthly_piety_gain_mult = 0.06
+	}
+}
+
+# ═══════════════════════════════════════════════════════════════
+# POŁUDNIOWE (se_slavic_south) — 5 miejsc
+# ═══════════════════════════════════════════════════════════════
+
+se_site_velbazhd = {
+	county = c_velbazhd
+
+	character_modifier = {
+		name = se_holy_site_velbazhd_effect
+		monthly_piety_gain_mult = 0.05
+		monthly_prestige_gain_mult = 0.03
+	}
+}
+
+se_site_tolna = {
+	county = c_tolna
+
+	character_modifier = {
+		name = se_holy_site_tolna_effect
+		monthly_piety_gain_mult = 0.04
+	}
+}
+
+se_site_ston = {
+	county = c_zachlumia
+
+	character_modifier = {
+		name = se_holy_site_ston_effect
+		monthly_piety_gain_mult = 0.04
+		monthly_prestige_gain_mult = 0.02
+	}
+}
+
+se_site_barlad = {
+	county = c_barlad
+
+	character_modifier = {
+		name = se_holy_site_barlad_effect
+		monthly_piety_gain_mult = 0.04
+	}
+}
+
+se_site_szerem = {
+	county = c_szerem
+
+	character_modifier = {
+		name = se_holy_site_szerem_effect
+		monthly_piety_gain_mult = 0.05
+	}
+}

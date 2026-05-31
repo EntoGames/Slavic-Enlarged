@@ -9,9 +9,9 @@ OUTPUT_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "gfx", "in
 # Tint definitions: (target_hue_degrees, saturation_mult, value_mult)
 # Hue: 0=red, 60=yellow, 120=green, 180=cyan, 240=blue, 300=magenta
 TINTS = {
-    "wsl_slavic_east":  (100, 1.4, 1.0),   # green
-    "wsl_slavic_west":  (40,  1.3, 1.0),    # gold/amber
-    "wsl_slavic_south": (180, 1.3, 1.0),    # teal/turquoise
+    "se_slavic_east":  (100, 1.4, 1.0),   # green
+    "se_slavic_west":  (40,  1.3, 1.0),    # gold/amber
+    "se_slavic_south": (180, 1.3, 1.0),    # teal/turquoise
 }
 
 

@@ -17,13 +17,11 @@ krivichians = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-		tradition_forest_folk
-		tradition_agrarian
-		tradition_druzhina
 		tradition_city_keepers
+		tradition_agrarian
 	}
 
-	name_list = name_list_russian
+	name_list = name_list_se_slavic
 
 	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { east_slavic_building_gfx western_building_gfx }
@@ -50,11 +48,9 @@ vyatichi = {
 	traditions = {
 		tradition_forest_folk
 		tradition_sacred_groves
-		tradition_druzhina
-		tradition_martial_admiration
 	}
 
-	name_list = name_list_russian
+	name_list = name_list_se_slavic
 
 	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { east_slavic_building_gfx western_building_gfx }
@@ -81,11 +77,9 @@ drevlyans = {
 	traditions = {
 		tradition_forest_folk
 		tradition_hunters
-		tradition_druzhina
-		#tradition_defensive_warfare # NOT IN VANILLA
 	}
 
-	name_list = name_list_russian
+	name_list = name_list_se_slavic
 
 	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { east_slavic_building_gfx western_building_gfx }
@@ -112,11 +106,9 @@ dregovichs = {
 	traditions = {
 		tradition_forest_folk
 		tradition_agrarian
-		tradition_druzhina
-		#tradition_defensive_warfare # NOT IN VANILLA
 	}
 
-	name_list = name_list_russian
+	name_list = name_list_se_slavic
 
 	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { east_slavic_building_gfx western_building_gfx }
@@ -142,12 +134,10 @@ polyans = {
 	head_determination = head_determination_domain
 	traditions = {
 		tradition_city_keepers
-		tradition_druzhina
-		tradition_agrarian
 		tradition_astute_diplomats
 	}
 
-	name_list = name_list_russian
+	name_list = name_list_se_slavic
 
 	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { east_slavic_building_gfx western_building_gfx }
@@ -172,13 +162,11 @@ ulichs = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-		tradition_forest_folk
-		tradition_druzhina
 		tradition_pastoralists
-		#tradition_defensive_warfare # NOT IN VANILLA
+		tradition_druzhina
 	}
 
-	name_list = name_list_russian
+	name_list = name_list_se_slavic
 
 	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { east_slavic_building_gfx western_building_gfx }
@@ -203,13 +191,11 @@ radimichs = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-		tradition_forest_folk
 		tradition_sacred_groves
-		tradition_druzhina
 		tradition_agrarian
 	}
 
-	name_list = name_list_russian
+	name_list = name_list_se_slavic
 
 	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { east_slavic_building_gfx western_building_gfx }
@@ -234,13 +220,11 @@ polochans = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-		tradition_forest_folk
 		tradition_city_keepers
 		tradition_druzhina
-		tradition_agrarian
 	}
 
-	name_list = name_list_russian
+	name_list = name_list_se_slavic
 
 	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { east_slavic_building_gfx western_building_gfx }
@@ -269,13 +253,11 @@ travunians = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-		#tradition_defensive_warfare # NOT IN VANILLA
-		tradition_hunters
 		tradition_pastoralists
 		tradition_maritime_mercantilism
 	}
 
-	name_list = name_list_serbian
+	name_list = name_list_se_slavic
 
 	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -300,12 +282,10 @@ docleani = {
 	head_determination = head_determination_domain
 	traditions = {
 		tradition_maritime_mercantilism
-		#tradition_defensive_warfare # NOT IN VANILLA
-		tradition_hunters
 		tradition_castle_keepers
 	}
 
-	name_list = name_list_serbian
+	name_list = name_list_se_slavic
 
 	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -329,13 +309,11 @@ timocani = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-		#tradition_defensive_warfare # NOT IN VANILLA
 		tradition_pastoralists
 		tradition_hunters
-		tradition_druzhina
 	}
 
-	name_list = name_list_serbian
+	name_list = name_list_se_slavic
 
 	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -359,13 +337,11 @@ branicevci = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-		#tradition_defensive_warfare # NOT IN VANILLA
 		tradition_druzhina
 		tradition_agrarian
-		tradition_martial_admiration
 	}
 
-	name_list = name_list_serbian
+	name_list = name_list_se_slavic
 
 	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -390,12 +366,10 @@ smolyani = {
 	head_determination = head_determination_domain
 	traditions = {
 		tradition_mountain_homes
-		#tradition_defensive_warfare # NOT IN VANILLA
-		tradition_forest_folk
 		tradition_hunters
 	}
 
-	name_list = name_list_bulgarian
+	name_list = name_list_se_slavic
 
 	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -419,13 +393,11 @@ pannonian_slavs = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-		tradition_astute_diplomats
 		tradition_city_keepers
-		tradition_parochialism
-		#tradition_defensive_warfare # NOT IN VANILLA
+		tradition_astute_diplomats
 	}
 
-	name_list = name_list_slovien
+	name_list = name_list_se_slavic
 
 	coa_gfx = { west_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -447,7 +419,7 @@ pannonian_slavs = {
 # WEST SLAVIC
 ###############################
 
-lechitic_polans = {
+polans = {
 	color = { 0.70 0.45 0.20 }
 
 	ethos = ethos_courtly
@@ -458,11 +430,9 @@ lechitic_polans = {
 	traditions = {
 		tradition_agrarian
 		tradition_city_keepers
-		tradition_xenophilic
-		#tradition_cavalry_skirmishing # NOT IN VANILLA
 	}
 
-	name_list = name_list_polish
+	name_list = name_list_se_slavic
 
 	coa_gfx = { polish_coa_gfx west_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -490,12 +460,10 @@ goplans = {
 	head_determination = head_determination_domain
 	traditions = {
 		tradition_agrarian
-		tradition_forest_folk
 		tradition_stand_and_fight
-		#tradition_defensive_warfare # NOT IN VANILLA
 	}
 
-	name_list = name_list_polish
+	name_list = name_list_se_slavic
 
 	coa_gfx = { polish_coa_gfx west_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -523,12 +491,10 @@ hevelli = {
 	head_determination = head_determination_domain
 	traditions = {
 		tradition_city_keepers
-		tradition_agrarian
 		tradition_xenophilic
-		#tradition_defensive_warfare # NOT IN VANILLA
 	}
 
-	name_list = name_list_polabian
+	name_list = name_list_se_slavic
 
 	coa_gfx = { polish_coa_gfx west_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -557,11 +523,9 @@ wagrians = {
 	traditions = {
 		tradition_maritime_mercantilism
 		tradition_hunters
-		#tradition_defensive_warfare # NOT IN VANILLA
-		tradition_forest_folk
 	}
 
-	name_list = name_list_polabian
+	name_list = name_list_se_slavic
 
 	coa_gfx = { polish_coa_gfx west_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -590,8 +554,6 @@ kashubians = {
 	traditions = {
 		tradition_maritime_mercantilism
 		tradition_agrarian
-		#tradition_defensive_warfare # NOT IN VANILLA
-		tradition_forest_folk
 	}
 
 	name_list = name_list_pommeranian
@@ -622,12 +584,10 @@ mazovians = {
 	head_determination = head_determination_domain
 	traditions = {
 		tradition_forest_folk
-		tradition_agrarian
 		tradition_stand_and_fight
-		#tradition_defensive_warfare # NOT IN VANILLA
 	}
 
-	name_list = name_list_polish
+	name_list = name_list_se_slavic
 
 	coa_gfx = { polish_coa_gfx west_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -654,13 +614,11 @@ nitrianians = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-		tradition_parochialism
 		tradition_city_keepers
-		tradition_agrarian
-		tradition_astute_diplomats
+		tradition_parochialism
 	}
 
-	name_list = name_list_slovien
+	name_list = name_list_se_slavic
 
 	coa_gfx = { west_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -691,13 +649,11 @@ obodrites = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-		tradition_stand_and_fight
 		tradition_maritime_mercantilism
-		tradition_druzhina
-		tradition_sacred_groves
+		tradition_stand_and_fight
 	}
 
-	name_list = name_list_polabian
+	name_list = name_list_se_slavic
 
 	coa_gfx = { polish_coa_gfx west_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -726,11 +682,9 @@ lutici = {
 	traditions = {
 		tradition_sacred_groves
 		tradition_stand_and_fight
-		tradition_hunters
-		tradition_martial_admiration
 	}
 
-	name_list = name_list_polabian
+	name_list = name_list_se_slavic
 
 	coa_gfx = { polish_coa_gfx west_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -759,11 +713,9 @@ rani = {
 	traditions = {
 		tradition_sacred_groves
 		tradition_maritime_mercantilism
-		tradition_martial_admiration
-		tradition_hunters
 	}
 
-	name_list = name_list_polabian
+	name_list = name_list_se_slavic
 
 	coa_gfx = { polish_coa_gfx west_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -792,11 +744,9 @@ sorbian = {
 	traditions = {
 		tradition_agrarian
 		tradition_castle_keepers
-		tradition_forest_folk
-		tradition_stand_and_fight
 	}
 
-	name_list = name_list_polabian
+	name_list = name_list_se_slavic
 
 	coa_gfx = { polish_coa_gfx west_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -824,12 +774,10 @@ drevani = {
 	head_determination = head_determination_domain
 	traditions = {
 		tradition_forest_folk
-		tradition_agrarian
-		tradition_stand_and_fight
 		tradition_sacred_groves
 	}
 
-	name_list = name_list_polabian
+	name_list = name_list_se_slavic
 
 	coa_gfx = { polish_coa_gfx west_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -844,5 +792,34 @@ drevani = {
 		5 = slavic_ginger
 		35 = slavic_brown_hair
 		15 = slavic_dark_hair
+	}
+}
+
+ilmenian = {
+	color = { 0.55 0.65 0.45 }
+
+	ethos = ethos_communal
+	heritage = heritage_east_slavic
+	language = language_east_slavic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_city_keepers
+		tradition_maritime_mercantilism
+	}
+
+	name_list = name_list_se_slavic
+
+	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { east_slavic_building_gfx western_building_gfx }
+	clothing_gfx = { east_slavic_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		55 = slavic_northern_blond
+		5 = slavic_northern_ginger
+		30 = slavic_northern_brown_hair
+		10 = slavic_northern_dark_hair
 	}
 }
