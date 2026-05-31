@@ -12,13 +12,11 @@ tivertsi = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-		tradition_forest_folk
 		tradition_agrarian
 		tradition_druzhina
-		#tradition_defensive_warfare # NOT IN VANILLA
 	}
 
-	name_list = name_list_russian
+	name_list = name_list_se_slavic
 
 	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { east_slavic_building_gfx western_building_gfx }

@@ -19,11 +19,9 @@ vistulan = {
 	traditions = {
 		tradition_agrarian
 		tradition_castle_keepers
-		tradition_stand_and_fight
-		tradition_sacred_groves
 	}
 
-	name_list = name_list_polish
+	name_list = name_list_se_slavic
 
 	coa_gfx = { polish_coa_gfx west_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -51,12 +49,10 @@ silesian = {
 	head_determination = head_determination_domain
 	traditions = {
 		tradition_agrarian
-		tradition_castle_keepers
-		#tradition_mining # NOT IN VANILLA
 		tradition_forest_folk
 	}
 
-	name_list = name_list_polish
+	name_list = name_list_se_slavic
 
 	coa_gfx = { polish_coa_gfx west_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -95,7 +91,7 @@ pommeranian = {
 		requires_dlc_flag = hybridize_culture
 	}
 
-	name_list = name_list_pommeranian
+	name_list = name_list_se_slavic
 
 	coa_gfx = { west_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -131,7 +127,7 @@ carantanian = {
 		tradition_martial_admiration
 	}
 
-	name_list = name_list_carantanian
+	name_list = name_list_se_slavic
 
 	coa_gfx = { west_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }

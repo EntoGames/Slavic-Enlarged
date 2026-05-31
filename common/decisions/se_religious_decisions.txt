@@ -1,0 +1,162 @@
+﻿﻿# ═══════════════════════════════════════════════════════════════
+# ETAP 1 — Przywrócenie Wiary Prasłowiańskiej (se_slavic_base)
+# Wymaga: duchy+, 500 piety, 3/5 własnych HS + 1 HS innego odłamu
+# ═══════════════════════════════════════════════════════════════
+se_reform_slavic_base = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_piety.dds"
+	}
+
+	desc = se_reform_slavic_base_desc
+	selection_tooltip = se_reform_slavic_base_tooltip
+
+	cooldown = { years = 5 }
+	ai_check_interval = 120
+
+	is_shown = {
+		is_ai = no
+
+		OR = {
+			faith = faith:se_slavic_east
+			faith = faith:se_slavic_west
+			faith = faith:se_slavic_south
+		}
+	}
+
+	is_valid = {
+		highest_held_title_tier >= tier_duchy
+		piety >= 500
+
+		custom_tooltip = {
+			text = se_reform_tooltip_3_own_holy_sites
+			se_controls_3_own_holy_sites_trigger = yes
+		}
+
+		custom_tooltip = {
+			text = se_reform_tooltip_1_other_slavic_holy_site
+			se_controls_1_other_slavic_holy_site_trigger = yes
+		}
+	}
+
+	effect = {
+		set_character_faith = faith:se_slavic_base
+		add_piety = -500
+
+		# Konwersja: tylko dwór i bliska rodzina (nie wszyscy wasale)
+		every_courtier = {
+			limit = { se_is_slavic_pagan_faith_trigger = yes }
+			set_character_faith = faith:se_slavic_base
+		}
+		every_close_family_member = {
+			limit = { se_is_slavic_pagan_faith_trigger = yes }
+			set_character_faith = faith:se_slavic_base
+		}
+
+		dynasty = {
+			add_dynasty_modifier = {
+				modifier = se_modifier_restorer_of_ancient_faith
+				years = 30
+			}
+		}
+
+		trigger_event = { id = se_reform.0001 }
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}
+
+# ═══════════════════════════════════════════════════════════════
+# ETAP 2 — Pansłowiańska Reforma (Wszechłowiańska Wiara)
+# Wymaga: se_slavic_base + kingdom+, 2000 piety, shared + regional HS
+# Tworzy wiarę dynamicznie przez create_faith (nie istnieje od startu)
+# ═══════════════════════════════════════════════════════════════
+se_reform_panslavic_faith = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_piety.dds"
+	}
+
+	desc = se_reform_panslavic_faith_desc
+	selection_tooltip = se_reform_panslavic_faith_tooltip
+
+	cooldown = { years = 5 }
+	ai_check_interval = 120
+
+	is_shown = {
+		is_ai = no
+
+		faith = faith:se_slavic_base
+
+		NOT = {
+			AND = {
+				exists = global_var:se_unified_faith
+				any_ruler = { faith = global_var:se_unified_faith }
+			}
+		}
+	}
+
+	is_valid = {
+		highest_held_title_tier >= tier_kingdom
+		piety >= 2000
+		prestige >= 1500
+
+		custom_tooltip = {
+			text = se_reform_tooltip_shared_sites
+			se_controls_shared_holy_sites_trigger = yes
+		}
+
+		custom_tooltip = {
+			text = se_reform_tooltip_regional_sites
+			se_controls_regional_holy_sites_trigger = yes
+		}
+
+		custom_tooltip = {
+			text = se_reform_tooltip_pagan_threshold
+			se_pagan_slavs_threshold_trigger = yes
+		}
+	}
+
+	effect = {
+		# Stwórz Wszechśłowiańską Wiarę dynamicznie
+		create_faith = {
+			name = se_slavic_unified
+			adjective = se_slavic_unified_adj
+			description = se_slavic_unified_desc
+			color = { 0.45 0.60 0.20 }
+			religion = se_slavic
+			icon = slavic_reformed
+			reformed_icon = slavic_reformed
+			doctrine = tenet_ancestor_worship
+			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_warmonger
+			save_scope_as = new_unified_faith
+		}
+		set_global_variable = {
+			name = se_unified_faith
+			value = scope:new_unified_faith
+		}
+		set_character_faith = scope:new_unified_faith
+		add_piety = -2000
+
+		every_vassal = {
+			limit = { se_is_slavic_pagan_faith_trigger = yes }
+			set_character_faith = scope:new_unified_faith
+		}
+
+		dynasty = {
+			add_dynasty_modifier = {
+				modifier = se_modifier_unifier_of_faiths
+				years = 60
+			}
+		}
+
+		trigger_event = {
+			id = se_main.0001
+		}
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}

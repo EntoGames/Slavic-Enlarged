@@ -1,0 +1,111 @@
+﻿########################################
+# WSL — przypisanie wiar słowiańskich w 867
+# CEL: w dacie startu se_slavic_base NIE WYSTĘPUJE na mapie.
+#      Wszystkie hrabstwa religion:slavic_religion trafiają
+#      do jednego z 3 odłamów (east/west/south) na podstawie
+#      regionu geograficznego, z dodatkową korektą po pillarze
+#      kulturowym dla obszarów mieszanych.
+########################################
+
+se_assign_starting_faiths_effect = {
+
+	# === KROK 1: ROZDZIAŁ GEOGRAFICZNY (podstawowy) ===
+
+	# --- RODNOWIERSTWO ZACHODNIE ---
+	# Połabie, Pomorze, zachodnia Germania (Obodryci, Lucice, Wieleci, Rani, Drzewianie, Serbowie Łużyccy)
+	every_county_in_region = {
+		region = world_europe_west_germania
+		limit = {
+			faith = { religion = religion:slavic_religion }
+		}
+		set_county_faith = faith:se_slavic_west
+	}
+
+	# --- RODNOWIERSTWO POŁUDNIOWE ---
+	# Bałkany — Serbowie, Chorwaci, Pannonscy Słowianie itd.
+	every_county_in_region = {
+		region = world_europe_south_east
+		limit = {
+			faith = { religion = religion:slavic_religion }
+		}
+		set_county_faith = faith:se_slavic_south
+	}
+
+	# --- EUROPA WSCHODNIA: KOREKTA PO PILLARZE ---
+	# Polacy, Czesi i inni zachodni Słowianie żyjący w world_europe_east
+	# najpierw oznaczamy jako zachodnich, ZANIM ogólna reguła wschodnia ich złapie.
+	every_county_in_region = {
+		region = world_europe_east
+		limit = {
+			faith = { religion = religion:slavic_religion }
+			holder = {
+				culture = { has_cultural_pillar = heritage_west_slavic }
+			}
+		}
+		set_county_faith = faith:se_slavic_west
+	}
+
+	# Resztę Europy Wschodniej (Rus, Krywicze, Polanie kijowscy itd.) → wschodnie
+	every_county_in_region = {
+		region = world_europe_east
+		limit = {
+			faith = { religion = religion:slavic_religion }
+		}
+		set_county_faith = faith:se_slavic_east
+	}
+
+	# === KROK 2: KOŃCOWE ZABEZPIECZENIE ===
+	# Każde hrabstwo, które nadal ma religion:slavic_religion (poza powyższymi regionami)
+	# zostaje przypisane wg pillara, a w ostateczności jako wschodnie.
+	# Po tym kroku NIKT nie powinien już mieć se_slavic_base.
+	every_county = {
+		limit = {
+			faith = { religion = religion:slavic_religion }
+		}
+		if = {
+			limit = {
+				holder = { culture = { has_cultural_pillar = heritage_west_slavic } }
+			}
+			set_county_faith = faith:se_slavic_west
+		}
+		else_if = {
+			limit = {
+				holder = { culture = { has_cultural_pillar = heritage_south_slavic } }
+			}
+			set_county_faith = faith:se_slavic_south
+		}
+		else = {
+			# domyślnie wschodnie (największa grupa słowiańska)
+			set_county_faith = faith:se_slavic_east
+		}
+	}
+
+	# === KROK 3: KONWERSJA WŁADCÓW ===
+	# Każdy władca z religion:slavic_religion przyjmuje wiarę ze swojego hrabstwa stołecznego
+	every_ruler = {
+		limit = {
+			faith = { religion = religion:slavic_religion }
+		}
+		set_character_faith = capital_county.title_province.faith
+	}
+
+	# === KROK 4: AWARYJNA KONWERSJA POZOSTAŁYCH POSTACI ===
+	# Postacie bez ziemi/władzy które wciąż mają se_slavic_base
+	# (gdyby coś wymknęło się powyższym regułom)
+	every_living_character = {
+		limit = {
+			faith = faith:se_slavic_base
+		}
+		if = {
+			limit = { culture = { has_cultural_pillar = heritage_west_slavic } }
+			set_character_faith = faith:se_slavic_west
+		}
+		else_if = {
+			limit = { culture = { has_cultural_pillar = heritage_south_slavic } }
+			set_character_faith = faith:se_slavic_south
+		}
+		else = {
+			set_character_faith = faith:se_slavic_east
+		}
+	}
+}

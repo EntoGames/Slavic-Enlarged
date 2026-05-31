@@ -1,0 +1,72 @@
+﻿name_list_se_slavic = {
+
+	cadet_dynasty_names = {
+	}
+
+	dynasty_names = {
+	}
+
+	male_names = {
+		Akamir Ardagast Bądzisław Bąsław Będomir Będzieciech Będzimir Będzimysł Barnim Bezprym Biecsław Biedziesław Biezdar Biezdziad Biezpraw Biezrząd
+		Biezstryj Biezuj Blizbor Blus Bożebor Bożeciech Bożydar Bożysław Bogdał Bogdan Bogdasz Bogomił Boguchwał Bogufał Bogumił Bogumysław Bogurad
+		Bogusąd Bogusław Bogwiedz Bohdan Bojan Bolebor Boleczaj Boleczest Bolelut Bolemir Bolemysł Bolesław Borzygniew Borzymir Borzysław Borzywoj Bracsław
+		Bratomir Bratosław Bratumił Braturad Brawlin Brodzisław Bronimir Bronisąd Bronisław Broniwoj Brosław Brzezdob Brzezdoma Budziboj Budzigniew Budzigost
+		Budzimir Budzisław Budziwoj Burysław Bygost Bytomir Chościsko Chociebąd Chociebor Chociemir Chociesław Choroman Chwalibog Chwalibor Chwalimir Chwalisław
+		Ciechomir Ciechosław Ciecierad Ciecimiar Cierpisław Ciesław Cieszybor Cieszygor Cieszymir Cieszymysł Cieszyrad Cieszysław Cirzpibog Czębor Czędomir
+		Częstobor Częstogoj Częstomir Częstowoj Czcibor Czcirad Czcisław Czedrog Czesław Długomił Dadzbog Dalebor Dalegor Dalemir Dalestryj Dalewin Dalibor
+		Dalimir Dargorad Derwan Dobiegniew Dobielut Dobiemiest Dobiemir Dobiesław Dobrobąd Dobrociech Dobrogost Dobromił Dobromir Dobromysł Dobromysław
+		Dobrosław Dobrosiodł Dobrowit Dobrowoj Dobrutro Dobrzegniew Domażyr Domaborz Domagniew Domamir Domarad Domasław Domastoj Domastryj Domasuł Domawuj
+		Dragomir Drogodziej Drogomił Drogomir Drogomysł Drogoradz Drogosław Drogowit Drohobysz Dziebor Dzierżykraj Dzierżysław Dziesław Dzirżywuj Dziwigor
+		Dziwisław Gardomir Gnierat Gniewomir Gniewosz Gościmir Gościrad Gościsław Gościwid Gościwit Gościwuj Godzimir Godzisław Gorazd Gorzysław Gosław
+		Gostmił Gostomysł Grodzisław Gromisław Grzymisław Grzysław Hubysław Imisław Izasław Izbor Izbygniew Izbylut Jaczemir Jaczewoj Janisław Jarogniew
+		Jaromir Jaropełk Jarosław Jarostryj Jimisław Juniesław Jutrogost Jutrota Jutrowoj Kanimir Kazimierz Krzesąd Krzesimir Krzesisław Krzywosąd Łękomir
+		Łada Laliczaj Lasota Lech Lechosław Lederg Lelistryj Lesław Leszek Lubgost Lubodrog Lubomir Lubomysł Luboradz Lubosław Lubowid Ludomił Ludomir Ludosław
+		Ludziwoj Lutobor Lutogniew Lutomir Lutomysł Lutosław Męcimir Męcisław Mścibor Mścigniew Mścisław Mściwoj Małobąd Małogost Małomir Małostryj
+		Małowid Małowuj Manomir Masław Mezamir Miłobąd Miłobor Miłobrat Miłodrog Miłodziad Miłogost Miłorad Miłosław Miłostryj Miłosz Miłowit Miłowuj
+		Mieczysław Miestwin Mieszko Milan Minigniew Mirogniew Mirogod Mirosław Modlibog Mojmir Mojsław Morzysław Mroczysław Mszczuj Myślibor Myślidar Myślimir
+		Mysław Nażyr Naczęmir Naczęrad Naczęsław Naczęwoj Nadar Nadbor Nadmir Nagod Namir Namysław Nasław Nasiębąd Nasiębor Nasięgniew Nawoj Niebor
+		Niecisław Niedał Niedabył Niedamir Niedan Niedoma Niedomysł Niegosław Niegowoj Nielubiec Niemir Niemoj Niemsta Niepełka Nieprosz Nieprzebąd Nierad
+		Niesąd Niesiebąd Niesiebor Niesiodł Niestek Niestoj Niesuł Nietubył Niezamysł Nieznamir Nieznawuj Ninogniew Ninomysł Nowosiodł Objęsław Ocięsław
+		Odolan Okrzesław Osiębor Osięgniew Ostrobod Ostrogniew Pęcisław Pękosław Pakosław Pełczybog Pomścibor Pomir Poznan Poznomir Prosimir Przebąd
+		Przebor Przedbor Przedmir Przedpełk Przedsław Przedwoj Przemęt Przemił Przemir Przemyślibor Przemysław Przyboj Przybor Przybygniew Przybylut Przybymir
+		Przybyrad Przybysław Przybywoj Przysnobor Przywit Racibor Racigniew Racimir Racisław Radociec Radogost Radomił Radomir Radosław Radosz Radowit Radowuj
+		Radzim Rościgniew Rościsław Rocsław Rodomił Rzędzimir Rzędzisław Rzędziwoj Sęczygniew Sędowin Sędzimir Sędzisław Sędziwoj Sławobor Sławociech
+		Sławomir Sławosław Ścibor Świętobor Świętomir Świętopełk Świętosław Świebąd Świebor Świeciech Świedarg Świegniew Świelub Świemił
+		Świemir Świerad Sambor Samogost Samosąd Sięgniew Siebąd Siebor Sieciech Sieciesław Siedlewit Siemił Siemidrog Siemierz Siemimysł Siemir Siemirad
+		Siemisław Siemomysław Siemowit Siepraw Sirosław Skarbimir Skarbisław Smysław Snowid Sobieżyr Sobiebor Sobiemir Sobiemysł Sobierad Sobiesąd Sobiesław
+		Spycigniew Spycimir Spycisław Stanibor Stanimir Stanisław Stojgniew Stojsław Stomir Strachomir Strogobor Strogomir Stronisław Strzeżymir Strzeżysław
+		Strzebor Strzedziwoj Sulibor Sulibrat Sulidziad Suligost Sulimir Sulirad Sulisław Sulistryj Suliwuj Swojsław Tęgomir Tasław Tatomir Toligniew Tolisław
+		Tomił Tomir Tomisław Trzebiebor Trzebiegost Trzebiemir Trzebiemysł Trzebiesław Trzebor Trzebowit Twardomir Twardosław Twardostoj Tworzymir Tworzysław
+		Uściwoj Ubysław Uniebog Uniedrog Uniegost Uniemir Uniemysł Unierad Uniesław Uniewit Wędziemir Władysław Włościbor Włościwoj Włodzimierz
+		Włodzisław Wacław Warcisław Więcemił Więcemir Więcerad Więcesław Wielebor Wielebyt Wieledrog Wielimir Wielisław Wiercisław Wiesław Wilkomir
+		Wirzchosław Wisław Witomir Witomysł Witosław Witosz Wojbor Wojciech Wojemił Wojmir Wojsław Wolebor Wolimir Wolisław Wolrad Wrocisław Wrociwoj Wszebąd
+		Wszebor Wszeciech Wszegniew Wszemił Wszemir Wszemysł Wszerad Wszesiodł Wszesuł Wysław Wyszebor Wyszemir Wyszesław Wyszomir Żegota Żelibor Żelibrat
+		Żeligniew Żelimysł Żelisław Żeliwuj Żyrosław Zadar Zamir Zawisza Zbigniew Zbrosław Zbylut Zbysław Zbywoj Zdamir Zdzibor Zdziczest Zdziebąd Zdziegod
+		Zdziegrod Zdziemił Zdzierad Zdziewit Zdzimir Zdzisław Zdziwoj Ziemomysł Ziemowit Znamir Zwnisław
+	}
+
+	female_names = {
+		Bądzisława Biecsława Biedziesława Bożeciecha Bożena Bogdała Bogdana Bogna Boguchwała Bogufała Bogumiła Bogusława Bolemira Bolesława Bratumiła
+		Bronisława Budzisława Chwalimira Chwalisława Ciechosława Ciecirada Ciesława Cieszysława Częstobrona Częstowojna Czcibora Czesława Dąbrówka Dadzboga
+		Dalebora Damroka Dobiegniewa Dobiesława Dobrawa Dobrochna Dobrogniewa Dobromiła Dobromira Dobroniega Dobrosława Dobrowoja Domasława Drogomira Drogosława
+		Dziadumiła Dzierżysława Dziesława Gościrada Gościsława Godzimira Godzisława Gosława Grodzisława Grzymisława Hubysława Imisława Izbygniewa
+		Jarogniewa Jaromira Jarosława Kazimiera Krzesisława Lechosława Lesława Lubomira Ludomiła Ludomira Lutosława Mścigniewa Mścisława Małomira Miłochna
+		Miłosława Mieczysława Milena Mirogniewa Mirosława Modliboga Mojmira Morzysława Mszczuja Myślibora Naczęsława Nasława Nawoja Nawojka Niedomira
+		Niegosława Nieluba Niemiła Nieradka Niestanka Pęcisława Pękosława Pakosława Przeborka Przedsława Przemysława Przybysława Racisława Radochna
+		Radomiła Radosława Radzisława Rościsława Rosława Rzepicha Sędzisława Sława Sławobora Sławomira Ścibora Świętomira Świętosława Świebora
+		Samboja Sięgniewa Sieciesława Sirosława Skarbimira Smysława Sobiesława Stanisława Stojsława Stronisława Strzeżysława Sulisława Tolisława Tomiła
+		Tomira Tomisława Trzebiesława Tworzysława Ubysława Uniesława Władysława Włościsława Włodzimira Wacława Więcesława Wielisława Wiesława
+		Wirzchosława Wisława Witosława Wojciecha Wojsława Wolisława Wrocisława Wszebora Wszemiła Wysława Wyszesława Żelisława Żyrosława Żywia Zbigniewa
+		Zbysława Zdzisława Zwnisława
+	}
+
+	dynasty_of_location_prefix = "dynnp_of"
+
+	pat_grf_name_chance = 35
+	mat_grf_name_chance = 15
+	father_name_chance = 10
+
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 35
+	mother_name_chance = 5
+}

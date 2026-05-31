@@ -1,28 +1,28 @@
-### Lechitic Polans — Wielkopolska / Łęczyckie / Sieradzkie
+### Polans — Wielkopolska / Łęczyckie / Sieradzkie
 ### IDs verified against vanilla k_poland.txt
 ### d_wielkopolska
 4900 = {
-	culture = lechitic_polans
+	culture = polans
 }
 4905 = {
-	culture = lechitic_polans
+	culture = polans
 }
 4909 = {
-	culture = lechitic_polans
+	culture = polans
 }
 4912 = {
-	culture = lechitic_polans
+	culture = polans
 }
 3149 = {
-	culture = lechitic_polans
+	culture = polans
 }
 ### d_kuyavia (Łęczyckie / Sieradzkie)
 4924 = {
-	culture = lechitic_polans
+	culture = polans
 }
 528 = {
-	culture = lechitic_polans
+	culture = polans
 }
 4931 = {
-	culture = lechitic_polans
+	culture = polans
 }

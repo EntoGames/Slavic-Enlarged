@@ -1,0 +1,53 @@
+﻿namespace = se_reform
+
+# ═══════════════════════════════════════════════════════════════
+# se_reform.0001 — Powrót do Korzeni
+# Odpala się po wykonaniu decyzji se_reform_slavic_base
+# Scope: character (reformator)
+# ═══════════════════════════════════════════════════════════════
+se_reform.0001 = {
+	type = character_event
+	title = se_reform.0001.t
+	desc = se_reform.0001.desc
+	theme = faith
+	left_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+
+	is_triggered_only = yes
+
+	# Opcja A: Jedność — słowiańscy pagańscy władcy zyskują opinię o reformatorze
+	option = {
+		name = se_reform.0001.a
+		every_ruler = {
+			limit = { se_is_slavic_pagan_faith_trigger = yes }
+			add_opinion = {
+				modifier = se_opinion_returned_to_roots
+				target = root
+			}
+		}
+	}
+
+	# Opcja B: Pierwszy krok — bonus piety + modifier momentum
+	option = {
+		name = se_reform.0001.b
+		add_piety = 200
+		add_character_modifier = {
+			modifier = se_modifier_reform_momentum
+			years = 5
+		}
+	}
+
+	# Opcja C: Święty ogień — powołaj wołchwa na dwór
+	option = {
+		name = se_reform.0001.c
+		create_character = {
+			employer = root
+			template = se_volkhv_template
+			faith = faith:se_slavic_base
+			culture = root.culture
+			save_scope_as = new_volkhv
+		}
+	}
+}

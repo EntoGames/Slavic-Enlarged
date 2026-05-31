@@ -1,0 +1,10 @@
+# ═══════════════════════════════════════════════════════════════
+# SE — Opinion Modifiers
+# ═══════════════════════════════════════════════════════════════
+
+# Nadawany przez se_reform.0001 opcja A:
+# Słowiańscy pagańscy władcy zyskują +10 opinii o reformatorze (10 lat)
+se_opinion_returned_to_roots = {
+	opinion = 10
+	years = 10
+}

@@ -1,9 +1,0 @@
-﻿wsl_modifier_unifier_of_faiths = {
-	icon = modifier_piety_icon
-
-	monthly_piety_gain_mult = 0.2
-	monthly_prestige_gain_mult = 0.15
-	diplomacy = 2
-	same_faith_opinion = 20
-	monthly_county_control_growth_add = 0.5
-}

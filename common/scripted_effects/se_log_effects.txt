@@ -1,0 +1,38 @@
+# SE Logging Effects
+# All mod events write to game.log using these wrappers.
+# Log location: Documents/Paradox Interactive/Crusader Kings III/logs/game.log
+# Filter: search for [SE-BALANCE] to isolate mod logs.
+#
+# Format: [SE-BALANCE][MOD][TYPE] key=value | key=value | ...
+
+########################################
+# Faith conversion log
+########################################
+se_log_faith_conversion_effect = {
+	# Call from character scope
+	log = "[SE-BALANCE][SE][FAITH] char=[This.GetName] culture=[This.GetCulture.GetName] old_faith=[This.GetFaith.GetName] | date=[GetDate]"
+}
+
+########################################
+# Culture conversion log
+########################################
+se_log_culture_conversion_effect = {
+	# Call from character scope
+	log = "[SE-BALANCE][SE][CULTURE] char=[This.GetName] new_culture=[This.GetCulture.GetName] faith=[This.GetFaith.GetName] | date=[GetDate]"
+}
+
+########################################
+# Holy site control change log
+########################################
+se_log_holy_site_effect = {
+	# Call from county scope; PREV = new controller character
+	log = "[SE-BALANCE][SE][HOLY_SITE] county=[This.GetName] new_holder=[PREV.GetName] faith=[PREV.GetFaith.GetName] | date=[GetDate]"
+}
+
+########################################
+# Generic SE event log (call from character scope)
+# Usage: set local_var:event_id before calling
+########################################
+se_log_event_effect = {
+	log = "[SE-BALANCE][SE][EVENT] char=[This.GetName] culture=[This.GetCulture.GetName] faith=[This.GetFaith.GetName] | date=[GetDate]"
+}
