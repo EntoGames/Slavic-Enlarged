@@ -1,74 +1,8 @@
 ########################################
 # SLAVIC ENLARGED — West Slavic Corrections
-# K1: vistulan language → language_lechitic (new culture, not in vanilla)
-# K2: silesian language → language_lechitic (new culture, not in vanilla)
 # K4: carantanian — corrected historical comment
 # K6: pommeranian — tradition_hussar → tradition_stand_and_fight
 ########################################
-
-### NEW CULTURES (not in vanilla CK3) ###
-
-vistulan = {
-	color = { 0.8 0.4 0.2 }
-
-	ethos = ethos_stoic
-	heritage = heritage_west_slavic
-	language = language_lechitic
-	martial_custom = martial_custom_male_only
-	head_determination = head_determination_domain
-	traditions = {
-		tradition_agrarian
-		tradition_castle_keepers
-	}
-
-	name_list = name_list_se_slavic
-
-	coa_gfx = { polish_coa_gfx west_slavic_group_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { west_slavic_clothing_gfx western_clothing_gfx }
-	unit_gfx = { eastern_unit_gfx }
-	house_coa_frame = house_frame_21
-	house_coa_mask_offset = { 0.0 0.055 }
-	house_coa_mask_scale = { 1.0 1.0 }
-
-	ethnicities = {
-		45 = slavic_blond
-		5 = slavic_ginger
-		35 = slavic_brown_hair
-		15 = slavic_dark_hair
-	}
-}
-
-silesian = {
-	color = { 0.6 0.5 0.3 }
-
-	ethos = ethos_communal
-	heritage = heritage_west_slavic
-	language = language_lechitic
-	martial_custom = martial_custom_male_only
-	head_determination = head_determination_domain
-	traditions = {
-		tradition_agrarian
-		tradition_forest_folk
-	}
-
-	name_list = name_list_se_slavic
-
-	coa_gfx = { polish_coa_gfx west_slavic_group_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { west_slavic_clothing_gfx western_clothing_gfx }
-	unit_gfx = { eastern_unit_gfx }
-	house_coa_frame = house_frame_21
-	house_coa_mask_offset = { 0.0 0.055 }
-	house_coa_mask_scale = { 1.0 1.0 }
-
-	ethnicities = {
-		45 = slavic_blond
-		5 = slavic_ginger
-		35 = slavic_brown_hair
-		15 = slavic_dark_hair
-	}
-}
 
 ### VANILLA OVERRIDES ###
 
@@ -113,7 +47,8 @@ pommeranian = {
 carantanian = {
 	color = { 0.4 0.65 0.4 }
 
-	ethos = ethos_communal
+	# ITERACJA 9: communal → egalitarian (Knežji Kamen — Kamień Intronizacyjny, elekcja kniazia przez chłopów)
+	ethos = ethos_egalitarian
 	heritage = heritage_west_slavic
 	#Alpine Slavs who settled in the Eastern Alps in the 6th century alongside the Avars,
 	#then gained independence after Samo's realm collapsed (~660).

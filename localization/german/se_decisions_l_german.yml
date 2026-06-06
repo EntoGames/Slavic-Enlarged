@@ -1,0 +1,6 @@
+﻿l_german:
+ se_check_holy_sites:0 "Die Slawischen Heiligen Stätten Einschätzen"
+ se_check_holy_sites_desc:0 "Die Volkhvy berichten, wie viele der fünfzehn heiligen Stätten der slawischen Welt unter Eurer Herrschaft liegen. Je mehr Ihr bei der Reformation haltet, desto stärker werden die Götter antworten."
+ se_check_tooltip_reward:0 "Mindestens 9 von 15 heiligen Stätten → #G Belohnung #! (+500 Frömmigkeit, +250 Ansehen, 30-Jahre-Modifikator)"
+ se_check_tooltip_neutral:0 "Mindestens 6 von 15 heiligen Stätten → #Y Neutral #! (weder Belohnung noch Strafe)"
+ se_check_tooltip_penalty:0 "Weniger als 6 → #R Strafe #! (-300 Frömmigkeit, 15-Jahre-Malus-Modifikator)"

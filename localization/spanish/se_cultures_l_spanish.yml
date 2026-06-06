@@ -1,0 +1,132 @@
+﻿l_spanish:
+
+ # Eslavos orientales — nuevas culturas
+ krivichians:0 "Krivichio"
+ krivichians_collective_noun:0 "Krivichios"
+ krivichians_prefix:0 "Krivichio"
+
+ vyatichi:0 "Viáticho"
+ vyatichi_collective_noun:0 "Viátichos"
+ vyatichi_prefix:0 "Viáticho"
+
+ drevlyans:0 "Drevliano"
+ drevlyans_collective_noun:0 "Drevlianos"
+ drevlyans_prefix:0 "Drevliano"
+
+ polochans:0 "Polochano"
+ polochans_collective_noun:0 "Polochanos"
+ polochans_prefix:0 "Polochano"
+
+ dregovichs:0 "Dregovichio"
+ dregovichs_collective_noun:0 "Dregovichios"
+ dregovichs_prefix:0 "Dregovichio"
+
+ polyans:0 "Poliano de Kiev"
+ polyans_collective_noun:0 "Polianos de Kiev"
+ polyans_prefix:0 "Poliano"
+
+ ulichs:0 "Ulichio"
+ ulichs_collective_noun:0 "Ulichios"
+ ulichs_prefix:0 "Ulichio"
+
+ radimichs:0 "Radimichio"
+ radimichs_collective_noun:0 "Radimichios"
+ radimichs_prefix:0 "Radimichio"
+
+ tivertsi:0 "Tivertsio"
+ tivertsi_collective_noun:0 "Tivertsios"
+ tivertsi_prefix:0 "Tivertsio"
+
+ # Eslavos meridionales — nuevas culturas
+ travunians:0 "Travuniano"
+ travunians_collective_noun:0 "Travunianos"
+ travunians_prefix:0 "Travuniano"
+
+ docleani:0 "Docleano"
+ docleani_collective_noun:0 "Docleanos"
+ docleani_prefix:0 "Docleano"
+
+ timocani:0 "Timocano"
+ timocani_collective_noun:0 "Timocanos"
+ timocani_prefix:0 "Timocano"
+
+ branicevci:0 "Branicevci"
+ branicevci_collective_noun:0 "Branicevci"
+ branicevci_prefix:0 "Branicevci"
+
+ smolyani:0 "Smoliano"
+ smolyani_collective_noun:0 "Smolianos"
+ smolyani_prefix:0 "Smoliano"
+
+ pannonian_slavs:0 "Eslavo panonio"
+ pannonian_slavs_collective_noun:0 "Eslavos panonios"
+ pannonian_slavs_prefix:0 "Panonio"
+
+ # Eslavos occidentales — nuevas culturas
+ polans:0 "Polano"
+ polans_collective_noun:0 "Polanos"
+ polans_prefix:0 "Polano"
+
+ goplans:0 "Goplano"
+ goplans_collective_noun:0 "Goplanos"
+ goplans_prefix:0 "Goplano"
+
+ hevelli:0 "Hevelio"
+ hevelli_collective_noun:0 "Hevelios"
+ hevelli_prefix:0 "Hevelio"
+
+ wagrians:0 "Wagrio"
+ wagrians_collective_noun:0 "Wagrios"
+ wagrians_prefix:0 "Wagrio"
+
+ kashubians:0 "Casubio"
+ kashubians_collective_noun:0 "Casubios"
+ kashubians_prefix:0 "Casubio"
+
+ mazovians:0 "Masovio"
+ mazovians_collective_noun:0 "Masovios"
+ mazovians_prefix:0 "Masovio"
+
+ nitrianians:0 "Nitriano"
+ nitrianians_collective_noun:0 "Nitrianos"
+ nitrianians_prefix:0 "Nitriano"
+
+ # Eslavos occidentales — correcciones (nuevas culturas ausentes del juego base)
+ vistulan:0 "Vistulano"
+ vistulan_collective_noun:0 "Vistulanos"
+ vistulan_prefix:0 "Vistulano"
+
+ silesian:0 "Silesio"
+ silesian_collective_noun:0 "Silesios"
+ silesian_prefix:0 "Silesio"
+
+ # Tribus polabios
+ obodrites:0 "Obodrita"
+ obodrites_collective_noun:0 "Obodritas"
+ obodrites_prefix:0 "Obodrita"
+
+ lutici:0 "Luticio"
+ lutici_collective_noun:0 "Luticios"
+ lutici_prefix:0 "Luticio"
+
+ rani:0 "Rano"
+ rani_collective_noun:0 "Ranos"
+ rani_prefix:0 "Rano"
+
+ sorbian:0 "Sorbio"
+ sorbian_collective_noun:0 "Sorbios"
+ sorbian_prefix:0 "Sorbio"
+
+ drevani:0 "Drevano"
+ drevani_collective_noun:0 "Drevanos"
+ drevani_prefix:0 "Drevano"
+
+ # Severiano (ITERACIÓN 9 — TODO_FROM_SSP)
+ severian:0 "Severiano"
+ severian_collective_noun:0 "Severianos"
+ severian_prefix:0 "Severiano "
+
+ # Ilmenio (añadido por compatibilidad con SSP)
+ ilmenian:0 "Ilmenio"
+ ilmenian_collective_noun:0 "Ilmenios"
+ ilmenian_prefix:0 "Ilmenio "

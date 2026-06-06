@@ -1,0 +1,6 @@
+﻿l_french:
+ se_check_holy_sites:0 "Évaluer les Lieux Saints Slaves"
+ se_check_holy_sites_desc:0 "Les volkhvy rapportent combien des quinze lieux saints du monde slave se trouvent sous votre règne. Plus vous en contrôlez au moment de la réforme, plus les dieux répondront avec force."
+ se_check_tooltip_reward:0 "Au moins 9 des 15 lieux saints → #G Récompense #! (+500 piété, +250 prestige, modificateur 30 ans)"
+ se_check_tooltip_neutral:0 "Au moins 6 des 15 lieux saints → #Y Neutre #! (ni récompense, ni pénalité)"
+ se_check_tooltip_penalty:0 "Moins de 6 → #R Pénalité #! (-300 piété, modificateur de malus 15 ans)"
