@@ -1,0 +1,132 @@
+﻿l_german:
+
+ # Ostslawen — neue Kulturen
+ krivichians:0 "Kriwitsche"
+ krivichians_collective_noun:0 "Kriwitschen"
+ krivichians_prefix:0 "Kriwitsche"
+
+ vyatichi:0 "Wjatitsche"
+ vyatichi_collective_noun:0 "Wjatitschen"
+ vyatichi_prefix:0 "Wjatitsche"
+
+ drevlyans:0 "Drewljane"
+ drevlyans_collective_noun:0 "Drewljanen"
+ drevlyans_prefix:0 "Drewljane"
+
+ polochans:0 "Polotschane"
+ polochans_collective_noun:0 "Polotschanen"
+ polochans_prefix:0 "Polotschane"
+
+ dregovichs:0 "Dregowitsche"
+ dregovichs_collective_noun:0 "Dregowitschen"
+ dregovichs_prefix:0 "Dregowitsche"
+
+ polyans:0 "Kiewer Poljane"
+ polyans_collective_noun:0 "Kiewer Poljanen"
+ polyans_prefix:0 "Poljane"
+
+ ulichs:0 "Ulitsche"
+ ulichs_collective_noun:0 "Ulitschen"
+ ulichs_prefix:0 "Ulitsche"
+
+ radimichs:0 "Radimitsche"
+ radimichs_collective_noun:0 "Radimitschen"
+ radimichs_prefix:0 "Radimitsche"
+
+ tivertsi:0 "Tiwerze"
+ tivertsi_collective_noun:0 "Tiwerzen"
+ tivertsi_prefix:0 "Tiwerze"
+
+ # Südslawen — neue Kulturen
+ travunians:0 "Travunier"
+ travunians_collective_noun:0 "Travunier"
+ travunians_prefix:0 "Travunier"
+
+ docleani:0 "Dukljaner"
+ docleani_collective_noun:0 "Dukljaner"
+ docleani_prefix:0 "Dukljaner"
+
+ timocani:0 "Timotschane"
+ timocani_collective_noun:0 "Timotschanen"
+ timocani_prefix:0 "Timotschane"
+
+ branicevci:0 "Branicevci"
+ branicevci_collective_noun:0 "Branicevci"
+ branicevci_prefix:0 "Branicevci"
+
+ smolyani:0 "Smoljane"
+ smolyani_collective_noun:0 "Smoljanen"
+ smolyani_prefix:0 "Smoljane"
+
+ pannonian_slavs:0 "Pannonischer Slawe"
+ pannonian_slavs_collective_noun:0 "Pannonische Slawen"
+ pannonian_slavs_prefix:0 "Pannonisch"
+
+ # Westslawen — neue Kulturen
+ polans:0 "Polane"
+ polans_collective_noun:0 "Polanen"
+ polans_prefix:0 "Polane"
+
+ goplans:0 "Goplane"
+ goplans_collective_noun:0 "Goplanen"
+ goplans_prefix:0 "Goplane"
+
+ hevelli:0 "Heveller"
+ hevelli_collective_noun:0 "Heveller"
+ hevelli_prefix:0 "Heveller"
+
+ wagrians:0 "Wagrier"
+ wagrians_collective_noun:0 "Wagrier"
+ wagrians_prefix:0 "Wagrier"
+
+ kashubians:0 "Kaschube"
+ kashubians_collective_noun:0 "Kaschuben"
+ kashubians_prefix:0 "Kaschube"
+
+ mazovians:0 "Masowier"
+ mazovians_collective_noun:0 "Masowier"
+ mazovians_prefix:0 "Masowier"
+
+ nitrianians:0 "Nitraer"
+ nitrianians_collective_noun:0 "Nitraer"
+ nitrianians_prefix:0 "Nitraer"
+
+ # Westslawen — Korrekturen (neue Kulturen, nicht im Hauptspiel)
+ vistulan:0 "Wislane"
+ vistulan_collective_noun:0 "Wislanen"
+ vistulan_prefix:0 "Wislane"
+
+ silesian:0 "Schlesier"
+ silesian_collective_noun:0 "Schlesier"
+ silesian_prefix:0 "Schlesier"
+
+ # Polabische Stämme
+ obodrites:0 "Obodrit"
+ obodrites_collective_noun:0 "Obodriten"
+ obodrites_prefix:0 "Obodrit"
+
+ lutici:0 "Liutize"
+ lutici_collective_noun:0 "Liutizen"
+ lutici_prefix:0 "Liutize"
+
+ rani:0 "Rane"
+ rani_collective_noun:0 "Ranen"
+ rani_prefix:0 "Rane"
+
+ sorbian:0 "Sorbe"
+ sorbian_collective_noun:0 "Sorben"
+ sorbian_prefix:0 "Sorbe"
+
+ drevani:0 "Drewane"
+ drevani_collective_noun:0 "Drewanen"
+ drevani_prefix:0 "Drewane"
+
+ # Sewerianer (ITERATION 9 — TODO_FROM_SSP)
+ severian:0 "Sewerianer"
+ severian_collective_noun:0 "Sewerianer"
+ severian_prefix:0 "Sewerianisch "
+
+ # Ilmenslawen (für SSP-Kompatibilität ergänzt)
+ ilmenian:0 "Ilmenslawe"
+ ilmenian_collective_noun:0 "Ilmenslawen"
+ ilmenian_prefix:0 "Ilmenslawe "

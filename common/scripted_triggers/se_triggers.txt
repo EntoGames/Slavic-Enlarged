@@ -1,52 +1,4 @@
-﻿se_controls_shared_holy_sites_trigger = {
-	# Wymaga kontroli min 3 z 5 panslowiańskich miejsc świętych
-	calc_true_if = {
-		amount >= 3
-		any_realm_county = { this = title:c_kiev }
-		any_realm_county = { this = title:c_rugen }
-		any_realm_county = { this = title:c_lviv }
-		any_realm_county = { this = title:c_novgorod }
-		any_realm_county = { this = title:c_praha }
-	}
-}
-
-se_controls_regional_holy_sites_trigger = {
-	calc_true_if = {
-		amount >= 2
-		any_realm_county = { this = title:c_lviv }
-		any_realm_county = { this = title:c_kiev }
-		any_realm_county = { this = title:c_minsk }
-		any_realm_county = { this = title:c_novgorod }
-		any_realm_county = { this = title:c_polotsk }
-	}
-	calc_true_if = {
-		amount >= 2
-		any_realm_county = { this = title:c_rugen }
-		any_realm_county = { this = title:c_plocka }
-		any_realm_county = { this = title:c_praha }
-		any_realm_county = { this = title:c_legnica }
-		any_realm_county = { this = title:c_mecklenburg }
-	}
-	calc_true_if = {
-		amount >= 2
-		any_realm_county = { this = title:c_velbazhd }
-		any_realm_county = { this = title:c_tolna }
-		any_realm_county = { this = title:c_zachlumia }
-		any_realm_county = { this = title:c_barlad }
-		any_realm_county = { this = title:c_szerem }
-	}
-}
-
-se_pagan_slavs_threshold_trigger = {
-	any_ruler = {
-		count >= 5
-		se_is_slavic_culture_trigger = yes
-		se_is_slavic_pagan_faith_trigger = yes
-		highest_held_title_tier >= tier_county
-	}
-}
-
-se_is_slavic_culture_trigger = {
+﻿se_is_slavic_culture_trigger = {
 	OR = {
 		culture = { has_cultural_pillar = heritage_west_slavic }
 		culture = { has_cultural_pillar = heritage_east_slavic }
@@ -60,98 +12,58 @@ se_is_slavic_pagan_faith_trigger = {
 		faith = faith:se_slavic_east
 		faith = faith:se_slavic_west
 		faith = faith:se_slavic_south
-		# Wszechslowianska Wiara tworzona dynamicznie — sprawdz global_var
-		AND = {
-			exists = global_var:se_unified_faith
-			faith = global_var:se_unified_faith
-		}
 	}
 }
 
-# Sprawdza czy wladca kontroluje 3+ z 5 holy sites swojego aktualnego odlamu
-# Uzywane przez: se_reform_slavic_base (is_valid)
-se_controls_3_own_holy_sites_trigger = {
-	if = {
-		limit = { faith = faith:se_slavic_east }
-		calc_true_if = {
-			amount >= 3
-			any_realm_county = { this = title:c_lviv }
-			any_realm_county = { this = title:c_kiev }
-			any_realm_county = { this = title:c_minsk }
-			any_realm_county = { this = title:c_novgorod }
-			any_realm_county = { this = title:c_polotsk }
-		}
-	}
-	else_if = {
-		limit = { faith = faith:se_slavic_west }
-		calc_true_if = {
-			amount >= 3
-			any_realm_county = { this = title:c_rugen }
-			any_realm_county = { this = title:c_plocka }
-			any_realm_county = { this = title:c_praha }
-			any_realm_county = { this = title:c_legnica }
-			any_realm_county = { this = title:c_mecklenburg }
-		}
-	}
-	else_if = {
-		limit = { faith = faith:se_slavic_south }
-		calc_true_if = {
-			amount >= 3
-			any_realm_county = { this = title:c_velbazhd }
-			any_realm_county = { this = title:c_tolna }
-			any_realm_county = { this = title:c_zachlumia }
-			any_realm_county = { this = title:c_barlad }
-			any_realm_county = { this = title:c_szerem }
-		}
+# Progi kontroli słowiańskich miejsc świętych:
+#   >= 9 → nagroda   (se_reform.0001)
+#   >= 6 → stan zero (se_reform.0003)
+#   <  6 → kara      (se_reform.0002)
+
+se_controls_9_slavic_holy_sites_trigger = {
+	calc_true_if = {
+		amount = 9
+		# wschodnie
+		any_realm_county = { this = title:c_lviv }
+		any_realm_county = { this = title:c_kiev }
+		any_realm_county = { this = title:c_minsk }
+		any_realm_county = { this = title:c_novgorod }
+		any_realm_county = { this = title:c_polotsk }
+		# zachodnie
+		any_realm_county = { this = title:c_rugen }
+		any_realm_county = { this = title:c_plocka }
+		any_realm_county = { this = title:c_praha }
+		any_realm_county = { this = title:c_legnica }
+		any_realm_county = { this = title:c_mecklenburg }
+		# południowe
+		any_realm_county = { this = title:c_velbazhd }
+		any_realm_county = { this = title:c_tolna }
+		any_realm_county = { this = title:c_zachlumia }
+		any_realm_county = { this = title:c_barlad }
+		any_realm_county = { this = title:c_szerem }
 	}
 }
 
-# Sprawdza czy wladca kontroluje 1+ holy site z innego odlamu slowanskiego niz wlasny
-# Uzywane przez: se_reform_slavic_base (is_valid)
-se_controls_1_other_slavic_holy_site_trigger = {
-	if = {
-		limit = { faith = faith:se_slavic_east }
-		OR = {
-			any_realm_county = { this = title:c_rugen }
-			any_realm_county = { this = title:c_plocka }
-			any_realm_county = { this = title:c_praha }
-			any_realm_county = { this = title:c_legnica }
-			any_realm_county = { this = title:c_mecklenburg }
-			any_realm_county = { this = title:c_velbazhd }
-			any_realm_county = { this = title:c_tolna }
-			any_realm_county = { this = title:c_zachlumia }
-			any_realm_county = { this = title:c_barlad }
-			any_realm_county = { this = title:c_szerem }
-		}
-	}
-	else_if = {
-		limit = { faith = faith:se_slavic_west }
-		OR = {
-			any_realm_county = { this = title:c_lviv }
-			any_realm_county = { this = title:c_kiev }
-			any_realm_county = { this = title:c_minsk }
-			any_realm_county = { this = title:c_novgorod }
-			any_realm_county = { this = title:c_polotsk }
-			any_realm_county = { this = title:c_velbazhd }
-			any_realm_county = { this = title:c_tolna }
-			any_realm_county = { this = title:c_zachlumia }
-			any_realm_county = { this = title:c_barlad }
-			any_realm_county = { this = title:c_szerem }
-		}
-	}
-	else_if = {
-		limit = { faith = faith:se_slavic_south }
-		OR = {
-			any_realm_county = { this = title:c_lviv }
-			any_realm_county = { this = title:c_kiev }
-			any_realm_county = { this = title:c_minsk }
-			any_realm_county = { this = title:c_novgorod }
-			any_realm_county = { this = title:c_polotsk }
-			any_realm_county = { this = title:c_rugen }
-			any_realm_county = { this = title:c_plocka }
-			any_realm_county = { this = title:c_praha }
-			any_realm_county = { this = title:c_legnica }
-			any_realm_county = { this = title:c_mecklenburg }
-		}
+se_controls_6_slavic_holy_sites_trigger = {
+	calc_true_if = {
+		amount = 6
+		# wschodnie
+		any_realm_county = { this = title:c_lviv }
+		any_realm_county = { this = title:c_kiev }
+		any_realm_county = { this = title:c_minsk }
+		any_realm_county = { this = title:c_novgorod }
+		any_realm_county = { this = title:c_polotsk }
+		# zachodnie
+		any_realm_county = { this = title:c_rugen }
+		any_realm_county = { this = title:c_plocka }
+		any_realm_county = { this = title:c_praha }
+		any_realm_county = { this = title:c_legnica }
+		any_realm_county = { this = title:c_mecklenburg }
+		# południowe
+		any_realm_county = { this = title:c_velbazhd }
+		any_realm_county = { this = title:c_tolna }
+		any_realm_county = { this = title:c_zachlumia }
+		any_realm_county = { this = title:c_barlad }
+		any_realm_county = { this = title:c_szerem }
 	}
 }

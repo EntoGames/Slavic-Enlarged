@@ -1,9 +1,43 @@
 ﻿name_list_se_slavic = {
 
+	# ITERACJA 13: Dynasty Names — historyczne rody słowiańskie
 	cadet_dynasty_names = {
+		# Przyrostek -owicze/-icze od imienia ojca
+		Włodzimierzowicze Bolesławowicze Jarosławowicze Izjasławicze
+		Wsiewołodowicze Mścisławowicze Rościsławowicze Świętosławowicze
+		Mieszkowicze Kazimierzowicze Zbigniewowicze Sieciechowicze
+		Konradowicze Leszkowicze Władysławowicze Ziemowicze
+		Siemomysłowicze Niklotowicze Pribysławowicze Jaromirówicze
+		Wisławowicze Barnimowicze Mstiwojowicze Ratiborycy
+		Trpimirowicze Kresimirowie Wiszesławowicze Mutimirowie
+		Radosławowicze Bratosławowicze
 	}
 
 	dynasty_names = {
+		# Wschodniosłowiańskie (IX–XIII w.)
+		Rurykowicze Włodzimierzowicze Izjasławicze
+		Wsiewołodowicze Rościsławicze Olgowicze Monomachowicze
+		Połocka Smoleńska Muromska Czernihowska
+		Nowgorodzka Pskowska Perejasławska Galicka
+		Wołyńska Rjazańska
+		Bogdanowicze Miroszczycy Mszczujowicze Ratiborycy
+		Domosławicze Zbysławicze Wojsławicze Radosławicze
+		# Zachodniosłowiańskie Lechickie
+		Piastowie Gryfici Odrowążowie Łabędziowie Poraj
+		Dołęgowie Nałęczowie Toporczykowie Szreniawici Sulimowie
+		Lisowie Leliwici Prawdzicowie Jeleniowie Korczakowie
+		Mazowiecka Kujawska Śląska Małopolska Wielkopolska
+		# Zachodniosłowiańskie Połabskie
+		Nikloci Pribignewowie Nakonidzi
+		Wratilanowie Przybysławowicze Teszomirowie
+		Jaromirowie Wisławowie Barnimowie
+		Havelanowie Brennaborowie Havolanie
+		Boantowicze Mstiwojowicze Drżysławowicze
+		# Południowosłowiańskie
+		Wiszesławicze Wlastimirowicze Mutimirowiczy Prvosławowicze
+		Trpimirowicze Kresimirowie Domagojowicze Branimirowie
+		Borysowie Symeonowie Asenowie Sziszmaniście
+		Strojmirowicze
 	}
 
 	male_names = {

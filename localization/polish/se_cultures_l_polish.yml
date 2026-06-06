@@ -122,6 +122,11 @@
  drevani_collective_noun:0 "Drzewanie"
  drevani_prefix:0 "drzewański"
 
+ # Severian (ITERACJA 9 — TODO_FROM_SSP)
+ severian:0 "Siewierska"
+ severian_collective_noun:0 "Siewierzanie"
+ severian_prefix:0 "Siewieski "
+
  # Ilmenian (dodane dla kompatybilności z SSP)
  ilmenian:0 "Ilmenie"
  ilmenian_collective_noun:0 "Ilmenianie"

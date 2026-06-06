@@ -1,0 +1,6 @@
+﻿l_spanish:
+ se_check_holy_sites:0 "Evaluar los Lugares Santos Eslavos"
+ se_check_holy_sites_desc:0 "Los volkhvy informan de cuántos de los quince lugares santos del mundo eslavo se encuentran bajo tu dominio. Cuantos más controles al reformar tu fe, con más fuerza responderán los dioses."
+ se_check_tooltip_reward:0 "Al menos 9 de 15 lugares santos → #G Recompensa #! (+500 piedad, +250 prestigio, modificador 30 años)"
+ se_check_tooltip_neutral:0 "Al menos 6 de 15 lugares santos → #Y Neutral #! (ni recompensa ni penalización)"
+ se_check_tooltip_penalty:0 "Menos de 6 → #R Penalización #! (-300 piedad, modificador de penalización 15 años)"
