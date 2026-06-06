@@ -1,0 +1,132 @@
+﻿l_french:
+
+ # Slaves orientaux — nouvelles cultures
+ krivichians:0 "Krivitche"
+ krivichians_collective_noun:0 "Krivitches"
+ krivichians_prefix:0 "Krivitche"
+
+ vyatichi:0 "Viatitche"
+ vyatichi_collective_noun:0 "Viatitches"
+ vyatichi_prefix:0 "Viatitche"
+
+ drevlyans:0 "Drevliane"
+ drevlyans_collective_noun:0 "Drevlianes"
+ drevlyans_prefix:0 "Drevliane"
+
+ polochans:0 "Polotchane"
+ polochans_collective_noun:0 "Polotchanes"
+ polochans_prefix:0 "Polotchane"
+
+ dregovichs:0 "Dregovitche"
+ dregovichs_collective_noun:0 "Dregovitches"
+ dregovichs_prefix:0 "Dregovitche"
+
+ polyans:0 "Poliane de Kiev"
+ polyans_collective_noun:0 "Polianes de Kiev"
+ polyans_prefix:0 "Poliane"
+
+ ulichs:0 "Oulitche"
+ ulichs_collective_noun:0 "Oulitches"
+ ulichs_prefix:0 "Oulitche"
+
+ radimichs:0 "Radimitche"
+ radimichs_collective_noun:0 "Radimitches"
+ radimichs_prefix:0 "Radimitche"
+
+ tivertsi:0 "Tivertse"
+ tivertsi_collective_noun:0 "Tivertses"
+ tivertsi_prefix:0 "Tivertse"
+
+ # Slaves méridionaux — nouvelles cultures
+ travunians:0 "Travounien"
+ travunians_collective_noun:0 "Travouniens"
+ travunians_prefix:0 "Travounien"
+
+ docleani:0 "Doclien"
+ docleani_collective_noun:0 "Docliens"
+ docleani_prefix:0 "Doclien"
+
+ timocani:0 "Timotchane"
+ timocani_collective_noun:0 "Timotchanes"
+ timocani_prefix:0 "Timotchane"
+
+ branicevci:0 "Branicevci"
+ branicevci_collective_noun:0 "Branicevci"
+ branicevci_prefix:0 "Branicevci"
+
+ smolyani:0 "Smoliane"
+ smolyani_collective_noun:0 "Smolianes"
+ smolyani_prefix:0 "Smoliane"
+
+ pannonian_slavs:0 "Slave de Pannonie"
+ pannonian_slavs_collective_noun:0 "Slaves de Pannonie"
+ pannonian_slavs_prefix:0 "Pannonien"
+
+ # Slaves occidentaux — nouvelles cultures
+ polans:0 "Polane"
+ polans_collective_noun:0 "Polanes"
+ polans_prefix:0 "Polane"
+
+ goplans:0 "Goplane"
+ goplans_collective_noun:0 "Goplanes"
+ goplans_prefix:0 "Goplane"
+
+ hevelli:0 "Hévellien"
+ hevelli_collective_noun:0 "Hévelles"
+ hevelli_prefix:0 "Hévellien"
+
+ wagrians:0 "Wagrien"
+ wagrians_collective_noun:0 "Wagriens"
+ wagrians_prefix:0 "Wagrien"
+
+ kashubians:0 "Cachoube"
+ kashubians_collective_noun:0 "Cachoubes"
+ kashubians_prefix:0 "Cachoube"
+
+ mazovians:0 "Mazovien"
+ mazovians_collective_noun:0 "Mazoviens"
+ mazovians_prefix:0 "Mazovien"
+
+ nitrianians:0 "Nitrien"
+ nitrianians_collective_noun:0 "Nitriens"
+ nitrianians_prefix:0 "Nitrien"
+
+ # Slaves occidentaux — corrections (nouvelles cultures absentes du jeu de base)
+ vistulan:0 "Vistulien"
+ vistulan_collective_noun:0 "Vistuliens"
+ vistulan_prefix:0 "Vistulien"
+
+ silesian:0 "Silésien"
+ silesian_collective_noun:0 "Silésiens"
+ silesian_prefix:0 "Silésien"
+
+ # Tribus polabes
+ obodrites:0 "Obodrite"
+ obodrites_collective_noun:0 "Obodrites"
+ obodrites_prefix:0 "Obodrite"
+
+ lutici:0 "Lutice"
+ lutici_collective_noun:0 "Lutices"
+ lutici_prefix:0 "Lutice"
+
+ rani:0 "Rane"
+ rani_collective_noun:0 "Ranes"
+ rani_prefix:0 "Rane"
+
+ sorbian:0 "Sorabe"
+ sorbian_collective_noun:0 "Sorabes"
+ sorbian_prefix:0 "Sorabe"
+
+ drevani:0 "Drévane"
+ drevani_collective_noun:0 "Drévanes"
+ drevani_prefix:0 "Drévane"
+
+ # Sévérien (ITÉRATION 9 — TODO_FROM_SSP)
+ severian:0 "Sévérien"
+ severian_collective_noun:0 "Sévériens"
+ severian_prefix:0 "Sévérien "
+
+ # Ilménien (ajouté pour la compatibilité SSP)
+ ilmenian:0 "Ilménien"
+ ilmenian_collective_noun:0 "Ilméniens"
+ ilmenian_prefix:0 "Ilménien "

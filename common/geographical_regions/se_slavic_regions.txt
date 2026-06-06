@@ -1,0 +1,121 @@
+########################################
+# SLAVIC ENLARGED — Geographic Regions
+# ITERACJA 7: meta-infrastruktura regionów
+# Plik: common/geographical_regions/se_slavic_regions.txt
+########################################
+
+# Nadrzędny region — wszystkie ziemie słowiańskie
+# Zastępuje zależność od vanilla custom_slavia
+se_region_slavia = {
+	duchies = {
+		# === WEST SLAVIC ===
+		# Lechitic / Polish
+		d_greater_poland d_mazovia d_silesia d_lesser_poland d_kuyavia d_sandomierz d_plock
+		# Polabian
+		d_mecklenburg d_lausitz d_meissen d_brandenburg d_lubeck
+		# Pomeranian
+		d_pomerania d_pomesania
+		# Czech-Slovak
+		d_bohemia d_moravia d_nyitra
+		# Karantanian
+		d_carinthia d_styria d_carnuntum
+		# === EAST SLAVIC ===
+		# Rus heartland
+		d_kiev d_chernigov d_pereyaslavl d_turov d_pinsk
+		# Northern Rus
+		d_novgorod d_pskov d_beloozero d_rostov d_vladimir
+		# Western Rus
+		d_polotsk d_smolensk d_minsk
+		# Galicia-Volhynia
+		d_galich d_volhynia d_cherven_cities
+		# Southern Rus
+		d_moldau d_wallachia
+		# === SOUTH SLAVIC ===
+		# Serbia
+		d_rashka d_diocletia d_slavonia
+		# Croatia
+		d_croatia d_dalmatia
+		# Bulgaria
+		d_turnovo d_vidin d_sofia d_philippopolis
+		# Macedonia / Thessalonika
+		d_thessalonika d_strymon d_dyrrachion
+	}
+}
+
+# Zachodniosłowiańska strefa
+se_region_west_slavic = {
+	duchies = {
+		# Lechitic / Polish
+		d_greater_poland d_mazovia d_silesia d_lesser_poland d_kuyavia d_sandomierz d_plock
+		# Polabian
+		d_mecklenburg d_lausitz d_meissen d_brandenburg d_lubeck
+		# Pomeranian
+		d_pomerania d_pomesania
+		# Czech-Slovak
+		d_bohemia d_moravia d_nyitra
+		# Karantanian
+		d_carinthia d_styria d_carnuntum
+	}
+}
+
+# Wschodniosłowiańska strefa
+se_region_east_slavic = {
+	duchies = {
+		# Rus heartland
+		d_kiev d_chernigov d_pereyaslavl d_turov d_pinsk
+		# Northern Rus
+		d_novgorod d_pskov d_beloozero d_rostov d_vladimir
+		# Western Rus
+		d_polotsk d_smolensk d_minsk
+		# Galicia-Volhynia
+		d_galich d_volhynia d_cherven_cities
+		# Southern Rus borderlands
+		d_moldau
+	}
+}
+
+# Południowosłowiańska strefa
+se_region_south_slavic = {
+	duchies = {
+		# Serbia
+		d_rashka d_diocletia d_slavonia
+		# Croatia
+		d_croatia d_dalmatia
+		# Bulgaria
+		d_turnovo d_vidin d_sofia d_philippopolis
+		# Macedonia / Thessalonika
+		d_thessalonika d_strymon d_dyrrachion
+	}
+}
+
+# Połabska strefa — Meklemburgia, Rugja, Łużyce, Brandenburgia (bez Polski)
+# Użycie: Pomerania/Sorbia eventy, Trzygław, Arkona
+se_region_polabian = {
+	duchies = {
+		d_mecklenburg d_lausitz d_meissen d_brandenburg d_lubeck
+	}
+}
+
+# Wybrzeże bałtyckie — Rugja + Pomorze + Gdańsk
+# Użycie: Flota Bałtycka, amber trade, kontakt z Duńczykami
+se_region_baltic_coast = {
+	duchies = {
+		d_mecklenburg d_pomerania d_pomesania d_lubeck
+	}
+}
+
+# Nowogród i północ
+# Użycie: eventy wiecowe, handel z Waregami
+se_region_novgorodian = {
+	duchies = {
+		d_novgorod d_pskov d_beloozero
+	}
+}
+
+# Pogranicze galicyjskie
+# Użycie: Dual Frontier modifier, Galicia-Volhynia eventy
+se_region_galician_border = {
+	duchies = {
+		d_galich d_volhynia d_cherven_cities
+	}
+}
