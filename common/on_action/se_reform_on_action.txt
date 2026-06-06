@@ -1,0 +1,25 @@
+on_faith_created = {
+	on_actions = {
+		se_on_slavic_reformation
+	}
+}
+
+se_on_slavic_reformation = {
+	trigger = {
+		faith.religion = religion:se_slavic
+		NOT = { faith = { has_doctrine = unreformed_faith_doctrine } }
+	}
+	effect = {
+		if = {
+			limit = { se_controls_9_slavic_holy_sites_trigger = yes }
+			trigger_event = { id = se_reform.0001 }
+		}
+		else_if = {
+			limit = { se_controls_6_slavic_holy_sites_trigger = yes }
+			trigger_event = { id = se_reform.0003 }
+		}
+		else = {
+			trigger_event = { id = se_reform.0002 }
+		}
+	}
+}

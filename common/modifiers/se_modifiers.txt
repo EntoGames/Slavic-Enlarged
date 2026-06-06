@@ -1,24 +1,13 @@
-# Modifier dynastyczny nadawany po reformie do se_slavic_base (30 lat)
-se_modifier_restorer_of_ancient_faith = {
+﻿# Nadawany reformatorowi, który zreformował odłam słowiański posiadając ≥9 z 15 miejsc (30 lat)
+se_modifier_great_reformer = {
 	icon = modifier_piety_icon
-
-	monthly_piety_gain_mult = 0.05
-	same_faith_opinion = 10
-}
-
-# Modifier postaci nadawany przez opcje B eventu se_reform.0001 (5 lat)
-se_modifier_reform_momentum = {
-	icon = modifier_piety_icon
-
 	monthly_piety_gain_mult = 0.10
+	same_faith_opinion = 20
 }
 
-se_modifier_unifier_of_faiths = {
+# Nadawany reformatorowi, który zreformował odłam słowiański posiadając <9 z 15 miejsc (15 lat)
+se_modifier_hasty_reformer = {
 	icon = modifier_piety_icon
-
-	monthly_piety_gain_mult = 0.2
-	monthly_prestige_gain_mult = 0.15
-	diplomacy = 2
-	same_faith_opinion = 20
-	monthly_county_control_growth_add = 0.5
+	monthly_piety_gain_mult = -0.15
+	monthly_prestige_gain_mult = -0.05
 }

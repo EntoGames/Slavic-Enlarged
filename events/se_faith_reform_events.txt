@@ -1,8 +1,8 @@
 ﻿namespace = se_reform
 
 # ═══════════════════════════════════════════════════════════════
-# se_reform.0001 — Powrót do Korzeni
-# Odpala się po wykonaniu decyzji se_reform_slavic_base
+# se_reform.0001 — Wielki Reformator
+# Odpala się gdy reformator odłamu słowiańskiego kontrolował ≥9 z 15 miejsc świętych.
 # Scope: character (reformator)
 # ═══════════════════════════════════════════════════════════════
 se_reform.0001 = {
@@ -17,37 +17,63 @@ se_reform.0001 = {
 
 	is_triggered_only = yes
 
-	# Opcja A: Jedność — słowiańscy pagańscy władcy zyskują opinię o reformatorze
 	option = {
 		name = se_reform.0001.a
-		every_ruler = {
-			limit = { se_is_slavic_pagan_faith_trigger = yes }
-			add_opinion = {
-				modifier = se_opinion_returned_to_roots
-				target = root
-			}
-		}
-	}
-
-	# Opcja B: Pierwszy krok — bonus piety + modifier momentum
-	option = {
-		name = se_reform.0001.b
-		add_piety = 200
+		add_piety = 500
+		add_prestige = 250
 		add_character_modifier = {
-			modifier = se_modifier_reform_momentum
-			years = 5
+			modifier = se_modifier_great_reformer
+			years = 30
 		}
 	}
+}
 
-	# Opcja C: Święty ogień — powołaj wołchwa na dwór
+# ═══════════════════════════════════════════════════════════════
+# se_reform.0003 — Stan Zerowy
+# Odpala się gdy reformator kontrolował >= 6 i < 9 z 15 miejsc świętych.
+# Scope: character (reformator)
+# ═══════════════════════════════════════════════════════════════
+se_reform.0003 = {
+	type = character_event
+	title = se_reform.0003.t
+	desc = se_reform.0003.desc
+	theme = faith
+	left_portrait = {
+		character = root
+		animation = idle
+	}
+
+	is_triggered_only = yes
+
 	option = {
-		name = se_reform.0001.c
-		create_character = {
-			employer = root
-			template = se_volkhv_template
-			faith = faith:se_slavic_base
-			culture = root.culture
-			save_scope_as = new_volkhv
+		name = se_reform.0003.a
+		# brak nagrody i kary — stan zerowy
+	}
+}
+
+# ═══════════════════════════════════════════════════════════════
+# se_reform.0002 — Pochopna Reformacja
+# Odpala się gdy reformator kontrolował < 6 z 15 miejsc świętych.
+# Scope: character (reformator)
+# ═══════════════════════════════════════════════════════════════
+se_reform.0002 = {
+	type = character_event
+	title = se_reform.0002.t
+	desc = se_reform.0002.desc
+	theme = faith
+	left_portrait = {
+		character = root
+		animation = personality_cynical
+	}
+
+	is_triggered_only = yes
+
+	option = {
+		name = se_reform.0002.a
+		add_piety = -300
+		add_character_modifier = {
+			modifier = se_modifier_hasty_reformer
+			years = 15
 		}
 	}
 }

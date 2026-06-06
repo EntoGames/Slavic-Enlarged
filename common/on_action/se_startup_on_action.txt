@@ -14,3 +14,38 @@ se_on_game_start = {
 		se_assign_starting_cultures_effect = yes
 	}
 }
+
+# Odpala się gdy jakikolwiek władca zreformuje wiarę.
+# Root scope: faith (reformowana wiara). scope:reformer: postać reformatora.
+on_faith_reformed = {
+	on_actions = {
+		se_on_slavic_faith_reformed
+	}
+}
+
+se_on_slavic_faith_reformed = {
+	effect = {
+		if = {
+			limit = {
+				OR = {
+					this = faith:se_slavic_east
+					this = faith:se_slavic_west
+					this = faith:se_slavic_south
+				}
+			}
+			scope:reformer = {
+				if = {
+					limit = { se_controls_9_slavic_holy_sites_trigger = yes }
+					trigger_event = { id = se_reform.0001 }	# nagroda
+				}
+				else_if = {
+					limit = { se_controls_6_slavic_holy_sites_trigger = yes }
+					trigger_event = { id = se_reform.0003 }	# stan zerowy
+				}
+				else = {
+					trigger_event = { id = se_reform.0002 }	# kara
+				}
+			}
+		}
+	}
+}
