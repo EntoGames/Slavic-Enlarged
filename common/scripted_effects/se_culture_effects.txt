@@ -440,7 +440,7 @@
 	}
 
 	### CHARACTER CULTURE SYNC ###
-	# Update ruler cultures to match their capital county
+	# Step 1: Update ruler cultures to match their capital county
 	every_ruler = {
 		limit = {
 			OR = {
@@ -483,5 +483,18 @@
 			}
 		}
 		set_culture = capital_county.culture
+
+		# Step 2: Sync courtiers & family to their liege's new culture
+		# Catches spouses, children, and unlanded dynasty members at tribal courts
+		every_courtier = {
+			limit = {
+				NOT = { culture = prev.culture }
+				OR = {
+					is_close_or_extended_family_of = prev
+					any_spouse = { this = prev }
+				}
+			}
+			set_culture = prev.culture
+		}
 	}
 }
