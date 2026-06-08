@@ -1,7 +1,12 @@
-### Goplans — Lake Goplo region (dying culture)
+### Goplans — Lake Goplo region + Chełmno land (dying culture)
 4918 = {
 	culture = goplans
 }
 4922 = {
 	culture = goplans
+}
+### c_torun (Chełmno) — Lechitic borderland, held by Goplans in 867
+3198 = {
+	culture = goplans
+	religion = slavic_pagan
 }

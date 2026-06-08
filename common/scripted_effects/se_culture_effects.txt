@@ -240,12 +240,13 @@
 
 	### WEST SLAVIC ###
 
-	# Goplans — Lake Goplo (dying culture)
+	# Goplans — Lake Goplo / Chełmno land (dying culture)
 	every_county = {
 		limit = {
 			OR = {
 				this = title:c_kujawy
 				this = title:c_dobrzynska
+				this = title:c_torun		# Chełmno — Lechitic borderland, held by Goplans in 867
 			}
 		}
 		set_county_culture = culture:goplans
