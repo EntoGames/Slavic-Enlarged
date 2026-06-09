@@ -1,4 +1,11 @@
-﻿se_is_slavic_culture_trigger = {
+﻿# ═══════════════════════════════════════════════════════════════
+# Slavic Enlarged — Scripted Triggers
+# Centralne triggery współdzielone przez SE, SSP i kingdom mody.
+# ═══════════════════════════════════════════════════════════════
+
+# ─── Kultura ───────────────────────────────────────────────────
+
+se_is_slavic_culture_trigger = {
 	OR = {
 		culture = { has_cultural_pillar = heritage_west_slavic }
 		culture = { has_cultural_pillar = heritage_east_slavic }
@@ -6,12 +13,47 @@
 	}
 }
 
+# ─── Wiara ─────────────────────────────────────────────────────
+
 se_is_slavic_pagan_faith_trigger = {
 	OR = {
 		faith = faith:se_slavic_base
 		faith = faith:se_slavic_east
 		faith = faith:se_slavic_west
 		faith = faith:se_slavic_south
+	}
+}
+
+# Alias na character scope — convenience trigger dla eventów
+se_character_has_slavic_faith_trigger = {
+	OR = {
+		faith = faith:se_slavic_base
+		faith = faith:se_slavic_east
+		faith = faith:se_slavic_west
+		faith = faith:se_slavic_south
+	}
+}
+
+# ─── Miejsca święte ───────────────────────────────────────────
+
+# Sprawdza czy county (this = title scope) jest jednym z 15 holy sites SE
+se_is_holy_site_trigger = {
+	OR = {
+		this = title:c_kiev
+		this = title:c_lviv
+		this = title:c_novgorod
+		this = title:c_minsk
+		this = title:c_polotsk
+		this = title:c_rugen
+		this = title:c_plocka
+		this = title:c_praha
+		this = title:c_legnica
+		this = title:c_mecklenburg
+		this = title:c_velbazhd
+		this = title:c_tolna
+		this = title:c_zachlumia
+		this = title:c_barlad
+		this = title:c_szerem
 	}
 }
 
@@ -66,4 +108,38 @@ se_controls_6_slavic_holy_sites_trigger = {
 		any_realm_county = { this = title:c_barlad }
 		any_realm_county = { this = title:c_szerem }
 	}
+}
+
+# Wspólne holy sites (Kijów, Arkona, Lwów, Nowogród, Praga)
+# Wymóg: 3 z 5 (FIX z ITERACJA_14 — było 5/5, co było niemożliwe)
+se_controls_shared_holy_sites_trigger = {
+	calc_true_if = {
+		amount = 3
+		any_realm_county = { this = title:c_kiev }
+		any_realm_county = { this = title:c_rugen }
+		any_realm_county = { this = title:c_lviv }
+		any_realm_county = { this = title:c_novgorod }
+		any_realm_county = { this = title:c_praha }
+	}
+}
+
+# ─── Region ────────────────────────────────────────────────────
+
+# Sprawdza czy county jest w zasięgu Struggle (custom_slavia region)
+# Alias upraszczający Kingdoms eventy
+se_struggle_region_county_trigger = {
+	title_province = {
+		geographical_region = custom_slavia
+	}
+}
+
+# ─── Reformacja ────────────────────────────────────────────────
+
+# Pełny check gotowości do reformacji (decyzje + AI)
+se_can_reform_faith_trigger = {
+	se_is_slavic_pagan_faith_trigger = yes
+	highest_held_title_tier >= tier_kingdom
+	piety >= 2000
+	se_controls_shared_holy_sites_trigger = yes
+	se_controls_6_slavic_holy_sites_trigger = yes
 }
