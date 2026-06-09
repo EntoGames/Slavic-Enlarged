@@ -131,3 +131,7 @@
  ilmenian:0 "Ilmenie"
  ilmenian_collective_noun:0 "Ilmenianie"
  ilmenian_prefix:0 "Ilmeński "
+
+ # Tolerancja kulturowa
+ se_same_heritage_acceptance:0 "Wspólne dziedzictwo słowiańskie"
+ se_cross_heritage_acceptance:0 "Wspólne korzenie słowiańskie"

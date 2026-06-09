@@ -1,0 +1,137 @@
+########################################
+# Cultural acceptance between Slavic cultures
+# Same heritage: +25 | Cross-heritage: +10
+# Called once at game start from se_on_game_start
+########################################
+
+se_set_cultural_acceptance_effect = {
+
+	# ========== SAME HERITAGE: +25 ==========
+	# Variable-based dedup: each pair processed exactly once.
+
+	# --- East Slavic ---
+	every_culture_global = {
+		limit = { has_cultural_pillar = heritage_east_slavic }
+		save_scope_as = se_source
+		set_variable = se_acceptance_done
+		every_culture_global = {
+			limit = {
+				has_cultural_pillar = heritage_east_slavic
+				NOT = { this = scope:se_source }
+				NOT = { has_variable = se_acceptance_done }
+			}
+			scope:se_source = {
+				change_cultural_acceptance = {
+					target = prev
+					value = 25
+					desc = se_same_heritage_acceptance
+				}
+			}
+		}
+	}
+	every_culture_global = {
+		limit = { has_variable = se_acceptance_done }
+		remove_variable = se_acceptance_done
+	}
+
+	# --- West Slavic ---
+	every_culture_global = {
+		limit = { has_cultural_pillar = heritage_west_slavic }
+		save_scope_as = se_source
+		set_variable = se_acceptance_done
+		every_culture_global = {
+			limit = {
+				has_cultural_pillar = heritage_west_slavic
+				NOT = { this = scope:se_source }
+				NOT = { has_variable = se_acceptance_done }
+			}
+			scope:se_source = {
+				change_cultural_acceptance = {
+					target = prev
+					value = 25
+					desc = se_same_heritage_acceptance
+				}
+			}
+		}
+	}
+	every_culture_global = {
+		limit = { has_variable = se_acceptance_done }
+		remove_variable = se_acceptance_done
+	}
+
+	# --- South Slavic ---
+	every_culture_global = {
+		limit = { has_cultural_pillar = heritage_south_slavic }
+		save_scope_as = se_source
+		set_variable = se_acceptance_done
+		every_culture_global = {
+			limit = {
+				has_cultural_pillar = heritage_south_slavic
+				NOT = { this = scope:se_source }
+				NOT = { has_variable = se_acceptance_done }
+			}
+			scope:se_source = {
+				change_cultural_acceptance = {
+					target = prev
+					value = 25
+					desc = se_same_heritage_acceptance
+				}
+			}
+		}
+	}
+	every_culture_global = {
+		limit = { has_variable = se_acceptance_done }
+		remove_variable = se_acceptance_done
+	}
+
+	# ========== CROSS HERITAGE: +10 ==========
+	# Each group-to-group block runs once per pair (no double-counting).
+
+	# East ↔ West
+	every_culture_global = {
+		limit = { has_cultural_pillar = heritage_east_slavic }
+		save_scope_as = se_east
+		every_culture_global = {
+			limit = { has_cultural_pillar = heritage_west_slavic }
+			scope:se_east = {
+				change_cultural_acceptance = {
+					target = prev
+					value = 10
+					desc = se_cross_heritage_acceptance
+				}
+			}
+		}
+	}
+
+	# East ↔ South
+	every_culture_global = {
+		limit = { has_cultural_pillar = heritage_east_slavic }
+		save_scope_as = se_east
+		every_culture_global = {
+			limit = { has_cultural_pillar = heritage_south_slavic }
+			scope:se_east = {
+				change_cultural_acceptance = {
+					target = prev
+					value = 10
+					desc = se_cross_heritage_acceptance
+				}
+			}
+		}
+	}
+
+	# West ↔ South
+	every_culture_global = {
+		limit = { has_cultural_pillar = heritage_west_slavic }
+		save_scope_as = se_west
+		every_culture_global = {
+			limit = { has_cultural_pillar = heritage_south_slavic }
+			scope:se_west = {
+				change_cultural_acceptance = {
+					target = prev
+					value = 10
+					desc = se_cross_heritage_acceptance
+				}
+			}
+		}
+	}
+}

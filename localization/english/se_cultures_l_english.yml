@@ -130,3 +130,7 @@
  ilmenian:0 "Ilmenian"
  ilmenian_collective_noun:0 "Ilmenians"
  ilmenian_prefix:0 "Ilmenian "
+
+ # Cultural acceptance
+ se_same_heritage_acceptance:0 "Shared Slavic Heritage"
+ se_cross_heritage_acceptance:0 "Common Slavic Roots"

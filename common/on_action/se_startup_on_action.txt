@@ -12,6 +12,7 @@ se_on_game_start = {
 	effect = {
 		se_assign_starting_faiths_effect = yes
 		se_assign_starting_cultures_effect = yes
+		se_set_cultural_acceptance_effect = yes
 	}
 }
 
