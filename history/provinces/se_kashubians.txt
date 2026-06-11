@@ -1,4 +1,4 @@
-### Kashubians — Gdańsk Pomerania (d_pomerelia)
+### Kashubians — Gdańsk Pomerania (d_pomerelia) + Krajna
 ### IDs verified against vanilla k_pomerania.txt
 2830 = {
 	culture = kashubians
@@ -10,5 +10,9 @@
 	culture = kashubians
 }
 3196 = {
+	culture = kashubians
+}
+### Krajna (d_wielkopolska) — verified against vanilla k_poland.txt
+4915 = {
 	culture = kashubians
 }

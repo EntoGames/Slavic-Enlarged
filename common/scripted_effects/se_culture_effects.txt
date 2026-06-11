@@ -281,7 +281,7 @@
 		set_county_culture = culture:nitrianians
 	}
 
-	# Kashubians — Gdańsk Pomerania (d_pomerelia)
+	# Kashubians — Gdańsk Pomerania (d_pomerelia) + Krajna
 	every_county = {
 		limit = {
 			OR = {
@@ -289,6 +289,7 @@
 				this = title:c_slupsk
 				this = title:c_miastko
 				this = title:c_berent
+				this = title:c_krajna
 			}
 		}
 		set_county_culture = culture:kashubians
