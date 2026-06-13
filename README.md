@@ -2,7 +2,7 @@
 
 > A comprehensive Slavic overhaul for **Crusader Kings III** — 35 cultures, 4 faith branches, 15 holy sites and a reformation reward system.
 
-![CK3 1.19](https://img.shields.io/badge/CK3-1.19-blue) ![Version 1.0.0](https://img.shields.io/badge/version-1.0.0-green) ![License](https://img.shields.io/badge/license-proprietary-lightgrey)
+![CK3 1.19](https://img.shields.io/badge/CK3-1.19-blue) ![Version 1.0.4](https://img.shields.io/badge/version-1.0.4-green) ![License](https://img.shields.io/badge/license-proprietary-lightgrey)
 
 ## What does this mod do?
 
@@ -45,7 +45,7 @@ Slavic Enlarged replaces the base game's broad Slavic cultures with historical t
 |-------|-------------|-------------|
 | [Slavic Struggle of Perun](https://github.com/EntoGames/Slavic-Enlarged-Slavic-Struggle-of-Perun) | Fate of Iberia | Struggle mechanic for Slavic lands — phases, events, strategic decisions |
 | Myths & Legends | Legends of the Dead | Slavic legend system (in development) |
-| Kingdom mods (16) | SE + SSP | Unique mechanics per Slavic kingdom |
+| Kingdom mods (17) | SE (SSP optional) | Unique mechanics per Slavic kingdom |
 
 ### Load order
 
