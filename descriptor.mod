@@ -1,5 +1,5 @@
 name="Slavic Enlarged"
-version="1.0.3"
+version="1.0.4"
 picture="thumbnail.png"
 tags={
 	"Culture"
