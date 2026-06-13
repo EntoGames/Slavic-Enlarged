@@ -13,6 +13,37 @@ se_on_game_start = {
 		se_assign_starting_faiths_effect = yes
 		se_assign_starting_cultures_effect = yes
 		se_set_cultural_acceptance_effect = yes
+		# Wyczyść leak vanilla wiary/kultury u istniejących dworzan od tury 0.
+		# (musi iść PO przypisaniu wiar i kultur władcom)
+		every_ruler = {
+			se_fix_courtier_leaks_effect = yes
+		}
+	}
+}
+
+# Coroczny sweep dworu KAŻDEGO władcy: konwertuje wygenerowanych przez CK3
+# dworzan z vanilla wiarą (slavic_religion) / se_slavic_base i vanilla kulturą
+# na WIARĘ i KULTURĘ lokalnego władcy. (EPIC 03 #25 — fix leaku bezziemnych)
+# root = władca (vanilla on_action, odpala się dla wszystkich landed AI+gracz).
+yearly_playable_ruler_pulse = {
+	effect = {
+		se_fix_courtier_leaks_effect = yes
+	}
+}
+
+# Per-dworzanin: każdy bezziemny normalizuje się do gospodarza w swoje
+# urodziny. Rozłożone w czasie => skraca okno widocznego leaku kultury
+# (puls władcy łapie raz w roku; urodziny — wcześniej dla części dworzan).
+# root = postać obchodząca urodziny.
+on_birthday = {
+	on_actions = {
+		se_on_birthday
+	}
+}
+
+se_on_birthday = {
+	effect = {
+		se_normalize_courtier_to_host_effect = yes
 	}
 }
 

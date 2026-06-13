@@ -90,22 +90,104 @@ se_assign_starting_faiths_effect = {
 	}
 
 	# === KROK 4: AWARYJNA KONWERSJA POZOSTAŁYCH POSTACI ===
-	# Postacie bez ziemi/władzy które wciąż mają se_slavic_base
-	# (gdyby coś wymknęło się powyższym regułom)
+	# Wszystkie postacie (także BEZZIEMNI dworzanie/rodzina/pula) które wciąż
+	# mają se_slavic_base LUB vanilla religię slavic_religion (KROK 3 łapie
+	# tylko władców — bezziemni z vanilla wiarą zostawali nietknięci).
 	every_living_character = {
 		limit = {
-			faith = faith:se_slavic_base
+			OR = {
+				faith = faith:se_slavic_base
+				faith = { religion = religion:slavic_religion }
+			}
 		}
+		se_set_slavic_faith_by_pillar_effect = yes
+	}
+}
+
+########################################
+# HELPER: fallback wiary słowiańskiej wg pillara kulturowego
+# Współdzielony przez startup (KROK 4) i periodyczny sweep leaku.
+# Scope: character.
+########################################
+se_set_slavic_faith_by_pillar_effect = {
+	if = {
+		limit = { culture = { has_cultural_pillar = heritage_west_slavic } }
+		set_character_faith = faith:se_slavic_west
+	}
+	else_if = {
+		limit = { culture = { has_cultural_pillar = heritage_south_slavic } }
+		set_character_faith = faith:se_slavic_south
+	}
+	else = {
+		# domyślnie wschodnie (największa grupa słowiańska)
+		set_character_faith = faith:se_slavic_east
+	}
+}
+
+########################################
+# FIX LEAKU BEZZIEMNYCH DWORZAN (EPIC 03 #25)
+# CK3 generuje dworzan z DOMYŚLNYMI wartościami:
+#   - wiara = vanilla slavic_religion (faith slavic_pagan, "Słowiańska prawda")
+#            lub przejściowe se_slavic_base — w obu wypadkach NIE wiara moda
+#   - kultura = vanilla kultura słowiańska (np. polish) zamiast
+#            podzielonej kultury moda
+# Nowym dworzanom CK3 nadaje wiarę gospodarza automatycznie, ale KULTURĘ
+# losuje regionalnie — stąd okresowe "wycieki" vanilla kultury w dworze.
+#
+# se_normalize_courtier_to_host_effect — scope: DWORZANIN (bezziemny).
+# Normalizuje SIEBIE do wiary/kultury gospodarza (host = właściciel dworu).
+# Reużywany przez: sweep dworu (puls/start) ORAZ on_birthday (per postać,
+# rozłożone w czasie — skraca okno widocznego leaku do urodzin dworzanina).
+########################################
+se_normalize_courtier_to_host_effect = {
+	if = {
+		limit = {
+			is_landed = no
+			exists = host
+			# Tylko dwory słowiańskich gospodarzy
+			host = { se_is_slavic_culture_trigger = yes }
+		}
+		# --- WIARA: leak (vanilla slavic_religion lub se_slavic_base) → wiara gospodarza ---
 		if = {
-			limit = { culture = { has_cultural_pillar = heritage_west_slavic } }
-			set_character_faith = faith:se_slavic_west
+			limit = {
+				OR = {
+					faith = faith:se_slavic_base
+					faith = { religion = religion:slavic_religion }
+				}
+				NOT = { faith = host.faith }
+				host = { se_character_has_slavic_faith_trigger = yes }
+			}
+			set_character_faith = host.faith
 		}
-		else_if = {
-			limit = { culture = { has_cultural_pillar = heritage_south_slavic } }
-			set_character_faith = faith:se_slavic_south
+		# --- KULTURA: słowiański dworzanin innej kultury niż gospodarz ---
+		# Nie ruszamy obcych (Grecy, Niemcy itd.) — tylko leak słowiański.
+		if = {
+			limit = {
+				se_is_slavic_culture_trigger = yes
+				NOT = { culture = host.culture }
+			}
+			set_culture = host.culture
 		}
-		else = {
-			set_character_faith = faith:se_slavic_east
+	}
+}
+
+########################################
+# Sweep CAŁEGO dworu jednego władcy. Scope: character (władca).
+# Wołany: startowo per władca (czyści istniejące dwory od tury 0) ORAZ
+# corocznie (yearly_playable_ruler_pulse — łapie nowo wygenerowanych).
+########################################
+se_fix_courtier_leaks_effect = {
+	if = {
+		limit = { se_is_slavic_culture_trigger = yes }
+
+		# Defensywnie: sam władca nie powinien mieć se_slavic_base.
+		if = {
+			limit = { faith = faith:se_slavic_base }
+			se_set_slavic_faith_by_pillar_effect = yes
+		}
+
+		every_courtier = {
+			se_normalize_courtier_to_host_effect = yes
 		}
 	}
 }
