@@ -289,7 +289,7 @@ travunians = {
 		tradition_maritime_mercantilism
 	}
 
-	name_list = name_list_se_slavic
+	name_list = name_list_south_serbian
 
 	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -317,7 +317,7 @@ docleani = {
 		tradition_castle_keepers
 	}
 
-	name_list = name_list_se_slavic
+	name_list = name_list_south_serbian
 
 	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -345,7 +345,7 @@ timocani = {
 		tradition_hunters
 	}
 
-	name_list = name_list_se_slavic
+	name_list = name_list_south_bulgarian
 
 	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -373,7 +373,7 @@ branicevci = {
 		tradition_agrarian
 	}
 
-	name_list = name_list_se_slavic
+	name_list = name_list_south_serbian
 
 	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -401,7 +401,7 @@ smolyani = {
 		tradition_hunters
 	}
 
-	name_list = name_list_se_slavic
+	name_list = name_list_south_bulgarian
 
 	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -429,7 +429,7 @@ pannonian_slavs = {
 		tradition_astute_diplomats
 	}
 
-	name_list = name_list_se_slavic
+	name_list = name_list_south_croatian
 
 	coa_gfx = { west_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -460,7 +460,7 @@ draguvites = {
 		tradition_forest_folk
 	}
 
-	name_list = name_list_se_slavic
+	name_list = name_list_south_bulgarian
 
 	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }

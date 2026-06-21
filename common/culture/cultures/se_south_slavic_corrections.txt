@@ -21,7 +21,7 @@ croatian = {
 		tradition_hereditary_hierarchy
 	}
 
-	name_list = name_list_se_slavic
+	name_list = name_list_south_croatian
 
 	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -56,7 +56,7 @@ serbian = {
 		requires_dlc_flag = hybridize_culture
 	}
 
-	name_list = name_list_se_slavic
+	name_list = name_list_south_serbian
 
 	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }

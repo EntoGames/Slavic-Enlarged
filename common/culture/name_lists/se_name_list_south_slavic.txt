@@ -1,0 +1,191 @@
+﻿# South Slavic name_lists — historycznie ugruntowane grupy
+# Wprowadzone 2026-06-20 w odpowiedzi na feedback Workshop (Hogar):
+# "Why are all my South Slavic names Polish."
+# Trzy listy odpowiadają kulturowo-historycznym sferom Bałkanów (867-1453):
+#   - name_list_south_serbian   : serbian, travunians, docleani, branicevci
+#   - name_list_south_croatian  : croatian, pannonian_slavs
+#   - name_list_south_bulgarian : timocani, smolyani, draguvites
+
+###############################################################################
+# Serbian-rooted (sfera serbska — Raška, Duklja, Travunia, Braničevo)
+###############################################################################
+name_list_south_serbian = {
+
+	cadet_dynasty_names = {
+		# Przyrostek -ović / -ević od imienia ojca
+		Stefanovići Vukanovići Lazarevići Vojislavljevići Mrnjavčevići
+		Brankovići Hrebeljanovići Balšići Crnojevići Dejanovići
+		Mutimirovići Strojimirovići Časlavovići Bodinovići Dragutinovići
+		Uroševići Đurađevići Miloševići Prvoslavovići Hrabrenovići
+		Bogoljubovići Strezovići Konstantinovići Mihailovići
+	}
+
+	dynasty_names = {
+		# Historyczne dynastie serbskie (VIII–XV w.)
+		Nemanjići Vlastimirovići Vojislavljevići Vukanovići Mrnjavčevići
+		Lazarevići Brankovići Hrebeljanovići Balšići Crnojevići
+		Dejanovići Altomanovići Voinovići Rastislavovići Mutimirovići
+		# Lokacyjne (od ziem)
+		Raški Travunjski Dukljanski Zahumski Hvostanski
+		Braničevski Maćvanski Zetski Bosanski Hercegovački
+	}
+
+	male_names = {
+		Aleksandar Andrija Anastasije Bogoljub Bogdan Bogoslav Bodin Branislav
+		Brkan Časlav Časlav Dabiša Damjan Danilo Despot Dimitrije Dobromir
+		Dobroslav Dragiša Dragoslav Dragutin Dušan Đurađ Filip Gavrilo
+		Grgur Grigorije Hrabren Hreljan Ilija Ivan Jakov Jefrem Jevstatije
+		Jovan Klonimir Konstantin Lazar Leontije Marko Matija Mihail
+		Milan Miljen Miloš Mirko Miroslav Mladen Mutimir Nemanja Nenad
+		Nikola Pavle Petar Predislav Pribislav Prvoslav Radič Radoman
+		Radomir Radoslav Rastko Ratimir Ratko Sava Sergije Simeon Slavomir
+		Stanimir Stanoje Stefan Stepan Stevan Strašimir Stratimir Strez
+		Strojimir Teodor Toma Tomislav Tvrtko Uglješa Uroš Vasilije Velimir
+		Vid Višeslav Vlastimir Vlatko Vlk Vojin Vojislav Vučić Vučko Vukan
+		Vukašin Vukmir Zaharije Žarko Zvonimir
+	}
+
+	female_names = {
+		Ana Anastasija Anđelija Bogdana Borisava Danica Despina Doroteja
+		Draga Dragana Dragoslava Đurđa Elena Helena Irina Jefimija Jefrosinija
+		Jelena Jelisaveta Jevdokija Jevpraksija Jovana Katarina Kosara Lazarica
+		Ljubica Magdalena Mara Margarita Marija Marta Mileva Milica Milka
+		Mira Mirjana Nada Olga Petra Radmila Radoslava Roksanda Simonida
+		Sofija Stana Stanislava Stojanka Tamara Teodora Vera Vesna Vidosava
+		Višnja Vukosava Zlata Zorica Zorka
+	}
+
+	dynasty_of_location_prefix = "dynnp_of"
+
+	pat_grf_name_chance = 35
+	mat_grf_name_chance = 15
+	father_name_chance = 10
+
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 35
+	mother_name_chance = 5
+}
+
+###############################################################################
+# Croatian-rooted (sfera chorwacka — Dalmatian Croatia + Pannonian Slavs)
+###############################################################################
+name_list_south_croatian = {
+
+	cadet_dynasty_names = {
+		# Przyrostki -ić / -ović charakterystyczne dla Chorwacji
+		Trpimirovići Krešimirovići Domagojevići Branimirovići Svetoslavići
+		Tomislavovići Zvonimirovići Mislavovići Petrovići Mutimirovići
+		Pribinovići Kocejovići Bornovići Ljudevitovići Višeslavići
+		Držislavovići Demetrijevići Stjepanovići Dmitrovići Borslavovići
+	}
+
+	dynasty_names = {
+		# Historyczne dynastie chorwackie + magnackie
+		Trpimirovići Domagojevići Krešimirovići Svetoslavići Branimirovići
+		Šubići Frankopani Bribirski Kačići Babonići Nelipići
+		Hrvatinići Kurjakovići Nelipčići Mogorovići Cetinjski
+		# Pannonian / Sklavinia dynasties
+		Pribinovići Kocejovići Bornovići Ljudevitovići
+		# Lokacyjne
+		Klisski Krčki Cetinski Splitski Trogirski Zadarski Senjski
+		Slavonski Posavski Vinodolski
+	}
+
+	male_names = {
+		Andrija Bartol Bela Berisav Boleslav Bonifac Borislav Borko Borna
+		Bratoslav Budimir Časlav Demetrije Dmitar Dobrivoj Dobromir Dobroslav
+		Dobrota Domagoj Dragan Dragoslav Dragutin Držislav Đuro Filip Frano
+		Gostislav Grgur Hrvoje Inok Ivan Ivaniš Ivanko Iviša Jakov Jaroslav
+		Jurko Klimet Klonimir Kocelj Krešimir Krsto Ladislav Lovro Ludovik
+		Ljubiša Ljudevit Marin Marko Martin Matej Matija Mihovil Mirko Mislav
+		Mladin Mojmir Mutimir Nikola Ozren Pavao Pavle Pero Petar Pribina
+		Pribislav Radomir Radoslav Radovan Rajmund Slavac Slavoljub Slavomir
+		Stanko Stipan Stjepan Stojislav Svetoljub Svetoslav Tihomir Tihoslav
+		Tomislav Toplica Trpimir Tvrtko Velislav Vekoslav Vidoslav Višeslav
+		Vladimir Vladislav Vlatko Vojin Vojko Vuk Zdeslav Zvonimir
+	}
+
+	female_names = {
+		Adelhajda Ana Andrijana Ankica Barbara Bisera Blaženka Borka
+		Branislava Cvita Dafina Domaslava Dora Doroteja Draga Dragana Dragica
+		Dubravka Elica Eufemija Frana Gordana Helena Hrvojka Ines Ivana
+		Ivka Jagoda Jasenka Jasna Jela Jelena Jelica Jelisava Katarina
+		Klaudija Klementa Lela Ljubica Magdalena Margareta Marija Marina
+		Mira Mirjana Mirna Nada Neda Petra Slava Slavena Slavica Snježana
+		Sofija Stana Stanislava Sunčana Tihana Tihomira Tomislava Vesna
+		Vinka Visnja Vladislava Zora Zorka Zvonimira
+	}
+
+	dynasty_of_location_prefix = "dynnp_of"
+
+	pat_grf_name_chance = 35
+	mat_grf_name_chance = 15
+	father_name_chance = 10
+
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 35
+	mother_name_chance = 5
+}
+
+###############################################################################
+# Bulgarian-rooted (sfera bułgarska — First/Second Bulgarian Empire)
+###############################################################################
+name_list_south_bulgarian = {
+
+	cadet_dynasty_names = {
+		# Przyrostki -ov / -evtsi typowe dla Bułgarii i sfer bizantyjsko-bułgarskich
+		Asenovtsi Šišmanovtsi Terterovtsi Smiletsovtsi Komitopuli
+		Krumovtsi Borilovtsi Skvasimirovtsi Boyanovtsi Petrovtsi
+		Simeonovtsi Vladimirovtsi Konstantinovtsi Teodorovtsi Mihailovtsi
+		Romanovtsi Samuilovtsi Gabrielovtsi Pavlovtsi
+	}
+
+	dynasty_names = {
+		# Historyczne dynastie bułgarskie (681–1396)
+		Dulo Krumovtsi Kometopuli Aseni Asenevtsi
+		Šišmanovtsi Terterovtsi Smiletsovtsi Borili
+		# Drugie Państwo Bułgarskie i lokalne magnackie
+		Vukashinovi Dobrotitsa Sracimirovtsi Stratsimirovtsi Strez
+		# Bizantyjsko-bułgarskie pogranicze (Smolyani, Timocani, Draguvites)
+		Mutmirovtsi Vladislavovtsi Borisovtsi Simeonovtsi
+		# Lokacyjne (od ziem)
+		Plisvski Preslavski Tarnovski Vidinski Skopski Ohridski
+		Rodopski Pomoravski Pomakski
+	}
+
+	male_names = {
+		Aron Asen Atanas Boril Boris Borislav Boyan Branislav Christo Damyan
+		David Despot Desislav Dimo Dimitar Dobromir Dobroslav Dragan Dragomir
+		Filip Gabriel Gavril Georgi Gergi Gleb Goran Hristo Ivan Ivanko
+		Iliya Iordan Iossif Kaloyan Kiril Klement Konstantin Konrad Kosta
+		Krum Lazar Lyuben Manuil Marin Marko Michail Mihail Mikhail Mladen
+		Mojmir Mutimir Nicephore Nikola Nikolay Ognyan Omurtag Pavel Penko
+		Persian Petar Petko Petur Plamen Predislav Presian Pribislav Radomir
+		Radoslav Radul Roman Sabin Samuil Sevar Shishman Simeon Sracimir
+		Stamen Stanimir Stefan Stoyan Stoyko Stratimir Stratsimir Svetoslav
+		Telerig Terter Teodor Teofil Theodor Tervel Toma Velichko Velislav
+		Vladimir Vladislav Vlas Vlastimir Vlk Yanko Zaharia Zhivko Zlatan
+	}
+
+	female_names = {
+		Aksiniya Anastasiya Anna Bistra Bogdana Boriana Borislava Cveta
+		Daniela Denica Desislava Dimana Dobrina Doroteya Dragana Elena
+		Elisaveta Evdokia Evpraksiya Galina Iordanka Iordana Irina Iva
+		Kalina Kalitsa Katerina Kosara Lyuba Lyubava Magdalena Maria
+		Mariya Milena Milka Milena Milica Mira Mirella Nadezhda Nedyalka
+		Nevena Olga Penka Petia Petrana Plamena Radka Radomira Ralitsa
+		Rumyana Sevastokratoritsa Slava Stanislava Stefana Stoyana Teodora
+		Tihomira Vanya Vasilka Vela Velika Vera Veselina Yanitsa Yordana
+		Zdravka Zlatka Zornitsa
+	}
+
+	dynasty_of_location_prefix = "dynnp_of"
+
+	pat_grf_name_chance = 35
+	mat_grf_name_chance = 15
+	father_name_chance = 10
+
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 35
+	mother_name_chance = 5
+}
