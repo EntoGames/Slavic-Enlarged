@@ -2,7 +2,7 @@
 
 > A comprehensive Slavic overhaul for **Crusader Kings III** — 35 cultures, 4 faith branches, 15 holy sites and a reformation reward system.
 
-![CK3 1.19](https://img.shields.io/badge/CK3-1.19-blue) ![Version 1.0.4](https://img.shields.io/badge/version-1.0.4-green) ![License](https://img.shields.io/badge/license-proprietary-lightgrey)
+![CK3 1.19](https://img.shields.io/badge/CK3-1.19-blue) ![Version 1.0.5](https://img.shields.io/badge/version-1.0.5-green) ![License](https://img.shields.io/badge/license-proprietary-lightgrey)
 
 ## What does this mod do?
 
